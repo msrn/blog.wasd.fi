@@ -10,3 +10,29 @@ url = "https://github.com/msrn"
 [[params.socialIcons]]
 name = "email"
 url = "blog@wasd.fi"
+
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.fi]
+    contentDir = 'content/fi'
+    disabled = false
+    languageCode = 'fi-FI'
+    languageDirection = 'ltr'
+    languageName = 'Suomi'
+    title = 'Wasd ploki'
+    weight = 1
+    [languages.fi.params]
+      subtitle = 'sivusto'
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-UK'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Wasd blog'
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
+
