@@ -1,4 +1,4 @@
 baseURL = 'https://blog.wasd.fi'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'en-uk'
+title = 'Wasd blog'
 theme = 'hugo-blog-awesome'
