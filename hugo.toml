@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = true
     name = 'Koti'
     weight = 10
     [[Languages.fi.menu.main]]
-    pageRef="/about"
+    pageRef="/fi/about"
     name = 'Tietoa'
     weight = 20
 
