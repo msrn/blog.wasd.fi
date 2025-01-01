@@ -2,7 +2,7 @@ baseURL = 'https://blog.wasd.fi'
 languageCode = 'en-uk'
 title = 'Wasd blog'
 theme = 'hugo-blog-awesome'
-sectionPagesMenu = 'main'
+
 
 
 [[params.socialIcons]]
