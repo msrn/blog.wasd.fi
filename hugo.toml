@@ -2,7 +2,8 @@ baseURL = 'https://blog.wasd.fi'
 languageCode = 'en-uk'
 title = 'Wasd blog'
 theme = 'hugo-blog-awesome'
-
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
 
 
 [[params.socialIcons]]
@@ -14,8 +15,7 @@ name = "email"
 url = "blog@wasd.fi"
 
 
-defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+
 [languages]
   [languages.fi]
     contentDir = 'content/fi'
