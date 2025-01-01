@@ -32,12 +32,10 @@ defaultContentLanguageInSubdir = true
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Koti'
-    url = '/'
     weight = 10
     [[Languages.fi.menu.main]]
     pageRef="/about"
     name = 'Tietoa'
-    url = '/tietoa/'
     weight = 20
 
   [languages.fi.params]
@@ -57,12 +55,10 @@ defaultContentLanguageInSubdir = true
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Home'
-    url = '/'
     weight = 10
     [[Languages.en.menu.main]]
     pageRef="/about"
     name = 'About'
-    url = '/about/'
     weight = 20
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
