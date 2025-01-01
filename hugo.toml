@@ -26,14 +26,14 @@ defaultContentLanguageInSubdir = true
     title = 'Wasd ploki'
     weight = 1
 
-  [Languages.fi.menu]
-    [[Languages.fi.menu.main]]
+  [languages.fi.menus]
+    [[languages.fi.menus.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Koti'
     weight = 10
-    [[Languages.fi.menu.main]]
+    [[languages.fi.menus.main]]
     pageRef="/fi/about"
     name = 'Tietoa'
     weight = 20
@@ -49,14 +49,14 @@ defaultContentLanguageInSubdir = true
     title = 'Wasd blog'
     weight = 2
 
-    [Languages.en.menu]
-    [[Languages.en.menu.main]]
+    [languages.en.menus]
+    [[languages.en.menus.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Home'
     weight = 10
-    [[Languages.en.menu.main]]
+    [[languages.en.menus.main]]
     pageRef="/about"
     name = 'About'
     weight = 20
