@@ -35,7 +35,7 @@ defaultContentLanguageInSubdir = true
     url = '/'
     weight = 10
     [[Languages.fi.menu.main]]
-    pageRef="about"
+    pageRef="/about"
     name = 'Tietoa'
     url = '/tietoa/'
     weight = 20
@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = true
     url = '/'
     weight = 10
     [[Languages.en.menu.main]]
-    pageRef="about"
+    pageRef="/about"
     name = 'About'
     url = '/about/'
     weight = 20
