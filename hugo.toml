@@ -3,11 +3,7 @@ languageCode = 'en-uk'
 title = 'Wasd blog'
 theme = 'hugo-blog-awesome'
 sectionPagesMenu = 'main'
-[params]
-  subtitle = 'The Best Widgets on Earth'
-  [params.contact]
-    email = 'info@example.org'
-    phone = '+1 202-555-1212'
+
 
 [[params.socialIcons]]
 name = "github"
