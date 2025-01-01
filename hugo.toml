@@ -25,8 +25,23 @@ defaultContentLanguageInSubdir = true
     languageName = 'Suomi'
     title = 'Wasd ploki'
     weight = 1
-    [languages.fi.params]
-      subtitle = 'sivusto'
+
+  [Languages.en.menu]
+    [[Languages.fi.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Koti'
+    url = '/'
+    weight = 10
+    [[Languages.fi.menu.main]]
+    pageRef="about"
+    name = 'Tietoa'
+    url = '/tietoa/'
+    weight = 20
+
+  [languages.fi.params]
+    subtitle = 'sivusto'
   [languages.en]
     contentDir = 'content/en'
     disabled = false
@@ -35,6 +50,20 @@ defaultContentLanguageInSubdir = true
     languageName = 'English'
     title = 'Wasd blog'
     weight = 2
+
+    [Languages.en.menu]
+    [[Languages.en.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+    [[Languages.en.menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 20
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
 
