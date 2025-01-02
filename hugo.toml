@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = true
     pageRef="/about"
     name = 'About'
     weight = 20
-    [[languages.fi.menus.main]]
+    [[languages.en.menus.main]]
     pageRef="/tags"
     name = 'Tags'
     weight = 30
