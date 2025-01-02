@@ -6,13 +6,7 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/msrn"
 
-[[params.socialIcons]]
-name = "email"
-url = "blog@wasd.fi"
 
 
 
