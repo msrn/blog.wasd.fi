@@ -15,7 +15,7 @@ Prerequisities:
  - Port opened to webapp servers. Request [this](https://www.kapsi.fi/palvelut/portit.html) from Kapsi admins.
  - ssh
  - (Optional) Own domain address
-
+<!--more-->
 Steps:
 
 1. Ssh to the webapp-bullseye server `ssh <account>@webapp-bullseye.kapsi.fi`
