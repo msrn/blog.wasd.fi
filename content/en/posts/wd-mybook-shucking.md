@@ -1,7 +1,7 @@
 ---
 date: '2025-05-20'
 draft: false
-title: 'Shucking WD MY books'
+title: 'Shucking WD MyBooks'
 categories:
  - tutorial
 tags: 
@@ -32,7 +32,7 @@ Once both edges are separated, you can just push the bottom in and the hard driv
 ![Separation](../../../content/images/wdmybookshuck4.png)
 
 The tabs on the top should look intact.
-This drive is WD80EDAZ
+This drive is WD80EDAZ. Made in Thailan 2020-12-14.
 
 ![alt text](../../../content/images/wdmybookshuck5.png)
 
