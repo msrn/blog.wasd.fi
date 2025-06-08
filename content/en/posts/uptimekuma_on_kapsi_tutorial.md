@@ -21,8 +21,8 @@ Small tutorial on how to run [Uptime Kuma](https://github.com/louislam/uptime-ku
 
 1. Ssh to the webapp-bullseye server `ssh <account>@webapp-bullseye.kapsi.fi`
 
-2. Install `nvm` to install Nodejs. See the recent installation guide from [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) 
-    I just used the wget snippet and then added below to `.bash_profile`
+2. Install `nvm` to install Nodejs. See the recent installation guide from [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).\
+I just used the wget snippet and then added below to `.bash_profile`
 
 ```
 export NVM_DIR="$HOME/.nvm"
@@ -30,11 +30,13 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
-After this run `nvm install` which at the writing install NodeJS v23. You can also run `nvm install --lts` to install latest LTS version.
+After this run `nvm install` which at the writing install NodeJS v23.  
+You can also run `nvm install --lts` to install latest LTS version.
 
 3. Change directory to desired domain you want to install eg `cd /sites/domain.com/www/`
    
-5. Create a `.htaccess` file with following content. This redirects requests from `domain.com` to the underlying web server running in `webapp-bullseye.n.kapsi.fi:<PORT>`
+5. Create a `.htaccess` file with following content.\
+ This redirects requests from `domain.com` to the underlying web server running in `webapp-bullseye.n.kapsi.fi:<PORT>`
 
 ```
 # Uudelleenohjaus http -> https
@@ -56,7 +58,7 @@ RewriteRule ^(.*)$ http://webapp-bullseye.n.kapsi.fi:<PORT>/$1 [P]
   UPTIME_KUMA_HOST= webapp-bullseye.n.kapsi.fi
   UPTIME_KUMA_PORT=<PORT>"
   ```
-  - Do a test run with `node server/server.js`. And accessing your domain eg `domain.com`
+  - Do a test run with `node server/server.js`, and access your domain eg `domain.com`
 
 5. Install `pm2` for running as a background processes
   - `npm install pm2 -g && pm2 install pm2-logrotate`
@@ -64,4 +66,4 @@ RewriteRule ^(.*)$ http://webapp-bullseye.n.kapsi.fi:<PORT>/$1 [P]
 6. Create cronjob entry for starting the server on reboot
 
 - `crontab -e`
-- Add following `@reboot cd ~/sites/domain.com/www && pm2 start server/server.js --name uptime-kuma
+- Add following `@reboot cd ~/sites/domain.com/www && pm2 start server/server.js --name uptime-kuma`
