@@ -39,7 +39,7 @@ defaultContentLanguageInSubdir = true
   [languages.fi.params]
     subtitle = 'sivusto'
   [languages.en]
-    contentDir = 'content/en'
+    #contentDir = 'content/en'
     disabled = false
     languageCode = 'en-UK'
     languageDirection = 'ltr'
