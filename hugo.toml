@@ -1,7 +1,7 @@
 baseURL = 'https://blog.wasd.fi'
 languageCode = 'en-uk'
 title = 'Wasd blog'
-theme = 'anubis2'
+theme = 'hugo-blog-awesome'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.fi]
-    contentDir = 'content/fi'
+    #contentDir = 'content/fi'
     disabled = false
     languageCode = 'fi-FI'
     languageDirection = 'ltr'
