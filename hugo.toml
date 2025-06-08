@@ -32,7 +32,7 @@ defaultContentLanguageInSubdir = true
     name = 'Tietoa'
     weight = 20
     [[languages.fi.menus.main]]
-    pageRef="/tags"
+    pageRef="/categories"
     name = 'Aiheet'
     weight = 30
 
@@ -59,8 +59,8 @@ defaultContentLanguageInSubdir = true
     name = 'About'
     weight = 20
     [[languages.en.menus.main]]
-    pageRef="/tags"
-    name = 'Tags'
+    pageRef="/categories"
+    name = 'Categories'
     weight = 30
     [languages.en.params]
       subtitle = 'Reference, Tutorials, and Explanations'
