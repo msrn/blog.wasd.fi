@@ -9,17 +9,23 @@ tags:
  - selfhosting
 ---
 
-One of the most popular ways to get cheap HDD space is to buy external hard drives and "shuck" the drive out of them. The point is to do this shucking cleanly, so that if you have send it for warranty recall you can put it back in the enclosure.
+One of the most popular ways to get cheap HDD space is to buy external hard drives and "shuck" the drive out of them.  
+The point is to do this shucking cleanly, so that if you have send it for warranty recall you can put it back in the enclosure.
 
-Before doing the shuck be sure to run somekind of a stress test for few days so you know that it doesn't fail immediately. I used the `preclear` plugin in Unraid for this. 
+Before doing the shuck be sure to run somekind of a stress test for few days so you know that it doesn't fail immediately.  
+I used the `preclear` plugin in Unraid for this. 
 
-To do this you need the enclousure, and thin plastic tools. Like guitar picks, credit cards. I used iFixit plastic picks. Plastic so that you don't damage the enclosure.
+To do this you need the enclousure, and thin plastic tools. Like guitar picks, credit cards. I used iFixit plastic picks. Use plastic so that you don't damage the enclosure.
 
 ![WD Mybook and Ifixit picks](images/wdmybookshuck1.png)
 
-The process is quite simple. We need to put the plastic picks to seperate outer closure tabs from the inner closure.
+The process is quite simple.  
+We need to put the plastic picks to seperate outer closure tabs from the inner closure.
 
-1. There are five tabs at top. Three on the side where hard drive is closest to the enclosure. And two on the other side. Just wedge them in between, you will feel a pop. See the picture below.
+1. There are five tabs at top.  
+Three on the side where hard drive is closest to the enclosure.  
+Two on the other side. Just wedge them in between, you will feel a pop.  
+See the picture below.
 
 ![Picks at the top](images/wdmybookshuck2.png)
 
