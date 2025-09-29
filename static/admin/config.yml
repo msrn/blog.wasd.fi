@@ -18,7 +18,6 @@ collections:
     i18n:
       structure: single_file
       locales: [en, fi]
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
@@ -34,4 +33,4 @@ collections:
         i18n:
           structure: single_file
           locales: [en, fi]
-        file: "content/index.md"
+        file: "content/about/index.md"
