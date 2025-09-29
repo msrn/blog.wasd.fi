@@ -1,6 +1,6 @@
 ---
 title: Test from Sveltia 3
-date: 2025-09-29T20:35:00
+date: '2025-09-29'
 description: Test from Sveltia 3
 ---
 # Quite fancy isn't

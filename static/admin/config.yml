@@ -15,6 +15,7 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
+    slug: '{{slug}}'
     i18n:
       structure: single_file
       locales: [en, fi]
