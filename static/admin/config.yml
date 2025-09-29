@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: msrn/blog.wasd.fi
+  branch: master
+  base_url: https://sveltia-cms-auth.nahkaz.workers.dev/
