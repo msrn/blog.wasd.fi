@@ -1,6 +1,6 @@
 ---
 title: Test from Sveltia 3
-draft: true
+draft: false
 date: 2025-09-29T20:35:00
 description: Test from Sveltia 3
 ---
