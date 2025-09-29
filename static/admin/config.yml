@@ -1,3 +1,5 @@
+site_url: https://blog.wasd.fi
+display_url: https://blog.wasd.fi
 backend:
   name: github
   repo: msrn/blog.wasd.fi
@@ -9,7 +11,13 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/posts'
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
     create: true
+    i18n:
+      structure: single_file
+      locales: [en, fi]
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
@@ -18,3 +26,12 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        i18n:
+          structure: single_file
+          locales: [en, fi]
+        file: "content/index.md"
