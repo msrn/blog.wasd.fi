@@ -19,9 +19,10 @@ collections:
       structure: single_file
       locales: [en, fi]
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -33,4 +34,4 @@ collections:
         i18n:
           structure: single_file
           locales: [en, fi]
-        file: "content/about/index.md"
+        file: "content/about/index"
