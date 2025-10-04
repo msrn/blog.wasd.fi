@@ -38,13 +38,13 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' }
       - { label: 'Description', name: 'description', widget: 'string', }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: "Pages"
-    name: "pages"
+  - label: 'Pages'
+    name: 'pages'
     files:
-      - label: "About Page"
-        name: "about"
+      - label: 'About Page'
+        name: 'about'
         i18n: true
-        file: "content/about/index.{{locale}}.md"
+        file: 'content/about/index.{{locale}}.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string', i18n: true }
           - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, }
