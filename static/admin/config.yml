@@ -24,7 +24,7 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/posts'
-    path: '{{slug}}/index'
+    path: '{{slug}}/index.{{locale}}.md'
     media_folder: ''
     public_folder: ''
     create: true
@@ -46,4 +46,4 @@ collections:
         i18n:
           structure: single_file
           locales: [en, fi]
-        file: "content/about/index"
+        file: "content/about/index.{{locale}}.md"
