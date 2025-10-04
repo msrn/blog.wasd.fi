@@ -29,9 +29,7 @@ collections:
     public_folder: ''
     create: true
     slug: '{{slug}}'
-    i18n:
-      structure: single_file
-      locales: [en, fi]
+    i18n: true
     editor:
       preview: true
     fields:
