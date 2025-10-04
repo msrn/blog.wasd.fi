@@ -6,4 +6,4 @@ description: Test
 ---
 TestTestTestTestTestTestTestTestTestTestTest
 
-![](/img/img-2025-09-29-20-22-24.png)
+![](/img/img-2025-09-29-20-22-24.png)![](Cover.jpg)
