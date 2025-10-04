@@ -4,7 +4,7 @@ draft: false
 title: 'The Bridge ja Gene Sprague'
 categories:
  - bloggaus
-slug: "hei maailma"
+slug: "The Bridge ja Gene Sprague"
 ---
 
 Katsoin hiljattain hieman surullisenkuuluisan Bridge-dokumentin vuodelta 2006, jossa keskitytään Golden Gaten itsemurhahyppääjiin. Kriittisesti dokumentti sai keskinkertaisen arvosanan, mutta henkilökohtaisesti se on yksi niistä elokuvista, jotka vain juuttuvat päähän joksikin aikaa.
