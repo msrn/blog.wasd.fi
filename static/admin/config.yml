@@ -34,10 +34,10 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string', i18n: true }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true,  i18n: duplicate}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , i18n: duplicate}
+      - { label: 'Description', name: 'description', widget: 'string', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
   - label: "Pages"
     name: "pages"
     files:
