@@ -1,30 +1,31 @@
 ---
-date: '2025-02-18'
+title: Setting up Uptime Kuma on Kapsi.fi
 draft: false
-title: 'Setting up Uptime Kuma on Kapsi.fi'
+date: 2025-02-18
+description: asd
 categories:
- - tutorial
-tags: 
- - tech
- - selfhosting
+  - tutorial
+tags:
+  - tech
+  - selfhosting
 ---
-
 Small tutorial on how to run [Uptime Kuma](https://github.com/louislam/uptime-kuma) on Kapsi.fi shared hosting environment without Docker.
 
 ## Prerequisities:
- - Kapsi account
- - Port opened to webapp servers. Request [this](https://www.kapsi.fi/palvelut/portit.html) from Kapsi admins.
- - ssh
- - (Optional) Own domain address
+
+- Kapsi account
+- Port opened to webapp servers. Request [this](https://www.kapsi.fi/palvelut/portit.html) from Kapsi admins.
+- ssh
+- (Optional) Own domain address
 <!--more-->
+
 ## Steps:
 
 1. Ssh to the webapp-bullseye server `ssh <account>@webapp-bullseye.kapsi.fi`
-
 2. Install `nvm` to install Nodejs. See the recent installation guide from [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).\
 I just used the wget snippet and then added below to `.bash_profile`
 
-```
+```plain
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -35,10 +36,10 @@ You can also run `nvm install --lts` to install latest LTS version.
 
 3. Change directory to desired domain you want to install eg `cd /sites/domain.com/www/`
    
-5. Create a `.htaccess` file with following content.\
+4. Create a `.htaccess` file with following content.\
  This redirects requests from `domain.com` to the underlying web server running in `webapp-bullseye.n.kapsi.fi:<PORT>`
 
-```
+```plain
 # Uudelleenohjaus http -> https
 RewriteEngine On
 RewriteCond %{ENV:HTTPS} !on
@@ -51,18 +52,23 @@ RewriteRule ^(.*) ws://webapp-bullseye.n.kapsi.fi:<PORT>/$1  [P]
 RewriteRule ^(.*)$ http://webapp-bullseye.n.kapsi.fi:<PORT>/$1 [P]
 ```
 
-4. Follow the official instructions for non-Docker installation [here](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-non-docker).
-  - `git clone https://github.com/louislam/uptime-kuma.git .`
-  - Create `.env` file to the root installation with this content
-  ```
+6. Follow the official instructions for non-Docker installation [here](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-non-docker).
+
+- `git clone https://github.com/louislam/uptime-kuma.git .`
+- Create `.env` file to the root installation with this content
+
+```plain
   UPTIME_KUMA_HOST= webapp-bullseye.n.kapsi.fi
   UPTIME_KUMA_PORT=<PORT>"
-  ```
-  - Do a test run with `node server/server.js`, and access your domain eg `domain.com`
+```
 
-5. Install `pm2` for running as a background processes
-  - `npm install pm2 -g && pm2 install pm2-logrotate`
-  - Start it `pm2 start server/server.js --name uptime-kuma`
+- Do a test run with `node server/server.js`, and access your domain eg `domain.com`
+
+7. Install `pm2` for running as a background processes
+
+- `npm install pm2 -g && pm2 install pm2-logrotate`
+- Start it `pm2 start server/server.js --name uptime-kuma`
+
 6. Create cronjob entry for starting the server on reboot
 
 - `crontab -e`
