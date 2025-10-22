@@ -32,7 +32,7 @@ The guide is as follows. For it you need a "A thumbdrive with capacity below 32G
 >     Plug in the speaker to the mains and power up the soundbar again.
 >     Update complete.
 
-So first prepare a USB drive and format it FAT32. And the copy the system the folder to the root. Folder structure should look like this.
+So first prepare a USB drive and format it FAT32. And the copy the contents of aforementioned zip to it. Folder structure should look like this.
 
 ```plain
 mikael at meso in media/mikael/565C-50B8 
@@ -45,16 +45,16 @@ mikael at meso in media/mikael/565C-50B8
 2 directories, 2 files
 ```
 
-Then plug in the USB to the side USB-A port
+Then plug in the USB drive to the USB-A port on the side.
 
 ![USB drive port plugged in](img-2025-10-21-23-26-28.png "USB drive port plugged in")
 
-Wait for the UP text. This took less than a minute for me.
+Wait for the UP text, and the update process will start.This took less than a minute for me.
 
 ![Updating speaker](img-2025-10-21-23-27-40.png "Updating")
 
-SU  meaning  update complete 
+Then it shows SU meaning  the update is complete.
 
 ![Update complete](img-2025-10-21-23-28-32.png "Update complete")
 
-Now disconnect the power and after then remove USB drive. Put power back up, and everything should work. No more annoying audio delay!
+Now disconnect the power and after that remove USB drive. Power back up, and everything should work. No more annoying audio delay!

@@ -13,7 +13,7 @@ Törmäsin muutamaan Reddit- [julkaisuun](https://www.reddit.com/r/Soundbars/com
 
 Zip-tiedoston SHA256-tarkistussumma on `8b1e091937f752629a6e354abba452e717e186581a0c31a3152da0332e2d9113` ja tiedostonimi `MF8360 Creative Stage FW upgrader V01.zip`
 
-Korjauslokit vain kertovat pahaenteisestä
+Päivitysloki on sisällöltään se perinteinen.
 
 > General improvements and bugs fixes
 
@@ -45,12 +45,12 @@ mikael at meso in media/mikael/565C-50B8
 
 ![USB drive port plugged in](img-2025-10-21-23-26-28.png "USB-tikku porttiin kytkettynä")
 
-Odota UP-tekstiviestiä. Tämä kesti minulta alle minuutin.
+Odota UP-viestiä ja päivitys prosessi alkaa. Tämä kesti noin minuutin.
 
 ![Updating speaker](img-2025-10-21-23-27-40.png "Päivittää")
 
-SU tarkoittaa päivitystä valmis
+SU tarkoittaa että päivitystä on valmis.
 
 ![Update complete](img-2025-10-21-23-28-32.png "Päivitys valmis")
 
-Irrota nyt virta ja vasta sen jälkeen USB-muistitikku. Kytke virta takaisin, niin kaiken pitäisi toimia. Ei enää ärsyttävää ääni viivettä!
+Irrota  kaiuttimen virta ja vasta sen jälkeen USB-muistitikku. Kytke virta takaisin, niin kaiken pitäisi toimia. Ei enää ärsyttävää ääni viivettä!
