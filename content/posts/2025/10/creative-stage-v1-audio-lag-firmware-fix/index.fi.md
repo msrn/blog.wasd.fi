@@ -54,3 +54,11 @@ SU tarkoittaa että päivitystä on valmis.
 ![Update complete](img-2025-10-21-23-28-32.png "Päivitys valmis")
 
 Irrota  kaiuttimen virta ja vasta sen jälkeen USB-muistitikku. Kytke virta takaisin, niin kaiken pitäisi toimia. Ei enää ärsyttävää ääni viivettä!
+
+## Vaihtoehtoinen firmware
+
+Creativen tukisivun tarjoama laiteohjelmisto ei korjannut ongelmaa, ainoastaan lievensi sitä hieman. Tuo versio näytti pitävän kaiuttimen toiminnassa pidempään, mutta äänen viiveongelma alkoi uudelleen jonkin ajan kuluttua. 
+
+Kokeilin päivittää  kajareihin Youtube-[videon](https://www.youtube.com/watch?v=MdNxCXcltHA) kuvauksessa mainitun laiteohjelmiston, ja tämä versio näyttää itse asiassa toimivan.
+
+ Mutta nyt olen huomannut, että Creative Stage -kaiuttimestani kuuluu jatkuvasti hyvin heikkoa sihinää. Päivitän tätä viestiä mahdollisen korjauksen varalta - jos sellainen on.
