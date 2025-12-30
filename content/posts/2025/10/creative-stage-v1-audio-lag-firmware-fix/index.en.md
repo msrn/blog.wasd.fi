@@ -65,7 +65,7 @@ Now disconnect the power and after that remove USB drive. Power back up, and eve
 
 The firmware provided by Creative supports page didn't fix the problem, but alleviated it a little bit. It seemed to keep the speaker alive longer, but the audio delay problem would start again after some time.
 
-I uploaded the firmware 
+I uploaded the firmware [here](Stage%20Firmware%20from%20youtube.zip) 
 
 
 I tried to flash the firmware mentioned in the Youtube video[^4] description, and this seems to actually work.
