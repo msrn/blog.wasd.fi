@@ -27,4 +27,4 @@ Mielenkiintoisesti Shellit.org huomasi markkinaraon ja alkoi alustavasti tarjoam
 
 [^3]: https://valtioneuvosto.fi/paatokset/paatos?decisionId=5370
 
-[⁴]: https://www.shellit.org/verkkotunnusten-valitys-uudistuu/
+[^4]: https://www.shellit.org/verkkotunnusten-valitys-uudistuu/
