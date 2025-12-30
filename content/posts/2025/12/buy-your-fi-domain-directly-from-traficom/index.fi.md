@@ -1,6 +1,6 @@
 ---
 title: Osta fi domainisi suoraan Traficomilta
-draft: true
+draft: false
 date: 2025-12-30
 categories:
   - article
