@@ -9,13 +9,15 @@ tags:
 ---
 Viime kuukausina Traficom aiheutti pienen "kohun", kun liikenne- ja viestintäministeriö esitti että fi domainien hinta nousee 9€ -> 12€, ja verkkotunnusvälittäjille asetetaan 400€ vuosimaksu [^1].
 
-Yksityisten ja yritysten antamat lausunnot olivat pääsääntöisesti vastaan, mutta jotkut lausunnot olivat puoltavia ehdotukset hyväksi. Näistä otti eniten silmään että puoltavat lasunnot oli isompien webhosting ja domain välitysfirmojen lausuntoja. Näiden lausuntojen tarkoitusperistä voi hyvinkin olettaa että halutaan savustaa pienemmät ja yksityiset tekijät pois pelikentältä, että "ammattimaiset" tekijät pystyvät takaamaan luotettavamman ja turvallisemman palvelun. Niinkuin esim tästä Shellit.org lausunnosta käy hyvinkin ilmi.
+Yksityisten ja yritysten antamat lausunnot olivat pääsääntöisesti tätä vastaan, mutta jotkut lausunnot olivat puoltavia ehdotuksen hyväksi. Näistä otti eniten silmään että puoltavat lasunnot oli isompien webhosting ja domain välitysfirmojen lausuntoja. Näiden lausuntojen tarkoitusperistä voi hyvinkin olettaa että halutaan savustaa pienemmät ja yksityiset tekijät pois pelikentältä, että "ammattimaiset" tekijät pystyvät takaamaan luotettavamman ja turvallisemman palvelun. Niinkuin esim tästä Shellit.org lausunnosta käy hyvinkin ilmi.
 
 ![](img-2025-12-30-10-53-07.png "Shellit.org lausunto")
 
-Oma domaini pitäis uusia vuoden alussa, ja tutkiessani että mitä kautta uusimisen voi halvinten tehdä, huomasin että hyvin tyypillinen strategia näillä isoilla tekijöillä on tarjota domain ensirekisteröinti halvalla ja veloittaa yli kolminkertaiset summat uusimisesta. Esimerkiksi yllämainitun Shellit.org tapauksessa normaalintahinta rekisteröimiselle on 21,50€/vuosi, mutta uusimisen hintaa en löytänyt heidän sivuiltaan.
+---
 
-Ison palauten määrän perusteella liikenne- ja viestintäministeriö poisti verkkotunnusvälittäjä muutoksen asetuksesta, ja aikoo arvioidan asian uudelleen. [^3]
+Oma domaini pitäis uusia vuoden alussa, ja tutkiessani että mitä kautta uusimisen voi halvinten tehdä, huomasin että hyvin tyypillinen strategia näillä isoilla tekijöillä on tarjota domain ensirekisteröinti halvalla ja veloittaa jossain tapauksissa yli kolminkertaiset summat uusimisesta. Esimerkiksi yllämainitun Shellit.org tapauksessa normaalintahinta rekisteröimiselle on 21,50€/vuosi, mutta uusimisen hintaa en löytänyt heidän sivuiltaan.
+
+Palautteesta johtuen  liikenne- ja viestintäministeriö poisti verkkotunnusvälittäjä muutoksen asetuksesta, ja aikoo arvioidan asian uudelleen. [^3]
 
 > Asetusluonnoksessa ehdotettu uusi verkkotunnusvälittäjän vuosimaksu (400 euroa) poistetaan asetuksen 2§:stä kokonaan säädösperustan uudelleen arvioinnin johdosta.
 
@@ -23,13 +25,13 @@ Mielenkiintoisesti Shellit.org huomasi markkinaraon ja alkoi alustavasti tarjoam
 
 ---
 
-Tästä viisastuneena ja fi domainien uusimis hintojen johdosta päätin itse rekisteröityä Traficomille verkkotunnuksenvälittäjäksi ja katkaista välikädet. Prosessi kun on hyvin yksinkertainen.
+Tästä viisastuneena ja fi domainien uusimishintojen johdosta päätin itse rekisteröityä Traficomille verkkotunnuksenvälittäjäksi ja katkaista välikädet. Prosessi kun on hyvin yksinkertainen. En ymmärrä miksi en ollut aikaisemmin tehnyt tätä, varmaan olen olettanut että kyseessä olisi hirveä määrä byrokratiaa.
 
-Täytät vain Traficomin sivuilla olevan hakemuslomakkeen [^5]. Itse täytin yksityishenkilön roolissa, ja merkitin että tarjoamani palvelu on `Verkkotunnusten hallinnointi ilman muita palveluita`
+Täytät vain Traficomin sivuilla olevan hakemuslomakkeen [^5]. Itse täytin yksityishenkilön roolissa, ja merkitsin että tarjoamani palvelu on `Verkkotunnusten hallinnointi ilman muita palveluita`
 
-Noin viikon kulutta sain sähköpostia että uusien NIS2 vaatimusten johdosta minun piti täyttää Kybermittari itsearvointi Excel-taulukko, joka vaikutti alussa hieman haastavalta. Tämän Kybermittarin kysymykset oli tarkoitettu enemmän yrityksille kuin yksityisille verkkotunnusvälittäjille. Vastasin tähän kuitenkin rehellisesti ja oman tietoteknisen laitteiston näkökulmasta.
+Noin viikon kuluttua sain sähköpostia että uusien NIS2 vaatimusten johdosta minun piti täyttää Kybermittari itsearvointi Excel-taulukko, joka vaikutti alussa hieman haastavalta. Tämän Kybermittarin kysymykset oli tarkoitettu enemmän yrityksille kuin yksityisille verkkotunnusvälittäjille. Vastasin tähän kuitenkin rehellisesti ja oman tietoteknisen laitteiston näkökulmasta.
 
-Seuraavana päivänä sain Traficomilta rekisteröitymislinkin hallintapalveluun ja yllätykseksini näkymä ei oikein eronnut mitenkään muiden domain tarjoajien vastaavasta. Kysymys kuuluukin, että miksi Traficomin pitää tehdä tämmöinen välivaihe yksityisille, sen sijaan että he tarjoasivat fi domainien rekisteröimisen ilman DNS -palvelimia suoraan.
+Seuraavana päivänä sain Traficomilta rekisteröitymislinkin hallintapalveluun ja omaksi yllätykseksi näkymä ei oikein eronnut mitenkään muiden domain tarjoajien vastaavasta. Kysymys kuuluukin, että miksi Traficomin pitää tehdä tämmöinen välivaihe yksityisille, sen sijaan että he tarjoasivat fi domainien rekisteröimisen ilman DNS -palvelimia suoraan.
 
 Kannattaa muuten tehdä tämä hakemus ennen 16.1.2026, jolloin tuo domainien hinta kasvaa. Itse rekisteröin suoraan 5vuodeksi kerralla 54€ hintaan.
 
