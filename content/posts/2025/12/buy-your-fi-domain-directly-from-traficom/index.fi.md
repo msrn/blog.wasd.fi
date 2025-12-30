@@ -27,7 +27,7 @@ Tästä viisastuneena ja fi domainien uusimis hintojen johdosta päätin itse re
 
 Täytät vain Traficomin sivuilla olevan hakemuslomakkeen [^5]. Itse täytin yksityishenkilön roolissa, ja merkitin että tarjoamani palvelu on `Verkkotunnusten hallinnointi ilman muita palveluita`
 
-Noin viikon kulutta sain sähköpostia että uusien NIS2 vaatimusten johdosta minun piti täyttää Kybermittari itsearvointi Excel-taulukko, joka vaikutti alussa hieman haastavalta. Tämän Kybermittarin kysymykset oli tarkoitettu enemmän yrityksille kuin yksityisille verkkotunnusvälittäjille. Vastasin tähän kuitenkin rehellisesti ja oman tietoteknisen laitteiston näkökulmasta. 
+Noin viikon kulutta sain sähköpostia että uusien NIS2 vaatimusten johdosta minun piti täyttää Kybermittari itsearvointi Excel-taulukko, joka vaikutti alussa hieman haastavalta. Tämän Kybermittarin kysymykset oli tarkoitettu enemmän yrityksille kuin yksityisille verkkotunnusvälittäjille. Vastasin tähän kuitenkin rehellisesti ja oman tietoteknisen laitteiston näkökulmasta.
 
 Seuraavana päivänä sain Traficomilta rekisteröitymislinkin hallintapalveluun ja yllätykseksini näkymä ei oikein eronnut mitenkään muiden domain tarjoajien vastaavasta. Kysymys kuuluukin, että miksi Traficomin pitää tehdä tämmöinen välivaihe yksityisille, sen sijaan että he tarjoasivat fi domainien rekisteröimisen ilman DNS -palvelimia suoraan.
 
