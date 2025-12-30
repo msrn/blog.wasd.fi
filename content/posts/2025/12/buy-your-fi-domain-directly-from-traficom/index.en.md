@@ -21,7 +21,7 @@ Based on the large number of responses, the Ministry of Transport and Communicat
 
 Interestingly, Shellit.org saw a niche and started offering a reseller platform to domain registrars for a small additional fee. Brilliant! [^4](https://www.shellit.org/verkkotunnusten-valitys-uudistuu/)
 
-* \* \*
+---
 
 Having learned from this and due to the renewal prices of fi domains, I decided to register with Traficom as a domain name registrar myself and cut out the middlemen. The process is very simple.
 
@@ -32,3 +32,13 @@ About a week later, I received an email that due to the new NIS2 requirements, I
 The next day I received a registration link to the management service from Traficom and to my surprise the view was no different from other domain providers. The question is why Traficom needs to make such an intermediate step for individuals, instead of offering the registration of fi domains without DNS servers directly.
 
 By the way, it's worth making this application before January 16, 2026, when the price of domains will increase. I registered directly for 5 years at once for €54.
+
+[^1]: https://www.lausuntopalvelu.fi/FI/Proposal/Participation?proposalId=bb3cd297-6c3b-456e-b647-e434208148ef
+
+[^2]: https://old.reddit.com/r/Suomi/comments/1pt1g8b/traficom_luopuu_esitetyst%C3%A4_fi/
+
+[^3]: https://valtioneuvosto.fi/paatokset/paatos?decisionId=5370
+
+[^4]: https://www.shellit.org/verkkotunnusten-valitys-uudistuu/
+
+[^5]: https://traficom.fi/fi/viestinta/fi-verkkotunnukset/verkkotunnusvalittajalle/fi-verkkotunnusvalittajaksi-ilmoittautuminen
