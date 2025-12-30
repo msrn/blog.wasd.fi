@@ -9,7 +9,7 @@ tags:
 ---
 Viime kuukausina Traficom aiheutti pienen "kohun", kun liikenne- ja viestintäministeriö esitti että fi domainien hinta nousee 9€ -> 12€, ja verkkotunnusvälittäjille asetetaan 400€ vuosimaksu [^1].
 
-Yksityisten ja yritysten antamat lausunnot olivat pääsääntöisesti tätä vastaan, mutta jotkut lausunnot olivat puoltavia ehdotuksen hyväksi. Näistä otti eniten silmään että puoltavat lasunnot oli isompien webhosting ja domain välitysfirmojen lausuntoja. Näiden lausuntojen tarkoitusperistä voi hyvinkin olettaa että halutaan savustaa pienemmät ja yksityiset tekijät pois pelikentältä, että "ammattimaiset" tekijät pystyvät takaamaan luotettavamman ja turvallisemman palvelun. Niinkuin esim tästä Shellit.org lausunnosta käy hyvinkin ilmi.
+Yksityisten ja yritysten antamat lausunnot olivat pääsääntöisesti tätä vastaan, mutta jotkut lausunnot olivat puoltavia ehdotuksen hyväksi. Näistä otti eniten silmään että puoltavat lasunnot oli isompien webhosting ja domain välitysfirmojen lausuntoja. Näiden lausuntojen tarkoitusperistä voi hyvinkin olettaa että halutaan savustaa pienemmät ja yksityiset tekijät pois pelikentältä, että "ammattimaiset" tekijät pystyvät takaamaan luotettavamman ja turvallisemman palvelun. Näin ainakin väitetään. Taustallaha on vain kilpailukentän kaventaminen, ja jos esim yksityisten käyttäjien välittäjästatuksesta tulee liian vaikeeta, niin nämä asiakkaat siirtyvät luonnollisesti isompien tarjoajien asiakkaiksi. Niinkuin esim tästä Shellit.org lausunnosta käy hyvinkin ilmi, joka hieman häkellyttää kuinka suorasti halutaan rajoittaa kilpailua, ja ajaa enemmän taalereita omaan laariin.
 
 ![](img-2025-12-30-10-53-07.png "Shellit.org lausunto")
 
