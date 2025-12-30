@@ -11,8 +11,8 @@ Edit: The firmware from Creative support page didnt actually fix the whole probl
 
 For a long time I have thought that the initial audio delay when playing video or audio had something do with my OS - Aurora Linux. Turns out it was problem with Cretive Stage v1 soundbar I have. This happens when there has been no audio playing for a while, notably when there is no silent "hiss" coming from the speaker.
 
-Stumbled upon few Reddit [posts](https://www.reddit.com/r/Soundbars/comments/mau0wh/creative_stage_21_dropping_sound_at_specific/) and [video](https://www.youtube.com/watch?v=MdNxCXcltHA) about this. 
-[Creative](https://support.creative.com/Products/ProductDetails.aspx?catID=4&subCatID=848&prodID=23279&prodName=Creative%20Stage&subCatName=Creative&CatName=) has made an official firmware fix for this already back in 2019. 
+Stumbled upon few Reddit posts and video about this [^1][^2]
+Creative [^3] has made an official firmware fix for this already back in 2019. 
 
 SHA256 checksum of the zip is `8b1e091937f752629a6e354abba452e717e186581a0c31a3152da0332e2d9113` 
 And filename `MF8360 Creative Stage FW upgrader V01.zip`
@@ -64,8 +64,14 @@ Now disconnect the power and after that remove USB drive. Power back up, and eve
 ## Alternative firmware fix
 
 The firmware provided by Creative supports page didn't fix the problem, but alleviated it a little bit. It seemed to keep the speaker alive longer, but the audio delay problem would start again after some time.
-I uploaded the firmware here: ![](Stage%20Firmware%20from%20youtube.zip "Stage firmware from youtube")
+
+I uploaded the firmware 
 
 
-I tried to flash the firmware mentioned in the Youtube [video](https://www.youtube.com/watch?v=MdNxCXcltHA) descrtion, and this seems to actually work.
+I tried to flash the firmware mentioned in the Youtube video[^4] description, and this seems to actually work.
 But now I have discovered that my Creative Stage speaker has a very slight hiss sound constantly on. Will update this post for potential fix - if there is.
+
+[^1]: https://www.reddit.com/r/Soundbars/comments/mau0wh/creative_stage_21_dropping_sound_at_specific/)
+[^2]: https://www.youtube.com/watch?v=MdNxCXcltHA
+[^3]: https://support.creative.com/Products/ProductDetails.aspx?catID=4&subCatID=848&prodID=23279&prodName=Creative%20Stage&subCatName=Creative&CatName=
+[^4]: https://www.youtube.com/watch?v=MdNxCXcltHA

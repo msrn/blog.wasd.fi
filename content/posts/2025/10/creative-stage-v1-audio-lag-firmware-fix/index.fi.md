@@ -9,7 +9,7 @@ tags:
 ---
 Olen pitkään luullut, että videon tai äänen toiston alussa ilmenevä viive johtui jotenkin käyttöjärjestelmästäni - Aurora Linuxista. Ongelma johtui kuitenkin Cretive Stage v1 -soundbaristani. Näin käy, kun ääntä ei ole toistettu vähään aikaan, etenkin jos kaiuttimesta ei kuulu hiljaista "sihinää".
 
-Törmäsin muutamaan Reddit- [julkaisuun](https://www.reddit.com/r/Soundbars/comments/mau0wh/creative_stage_21_dropping_sound_at_specific/) ja [videoon](https://www.youtube.com/watch?v=MdNxCXcltHA) tästä aiheesta. [Creative](https://support.creative.com/Products/ProductDetails.aspx?catID=4&subCatID=848&prodID=23279&prodName=Creative%20Stage&subCatName=Creative&CatName=) on tehnyt virallisen laiteohjelmistokorjauksen tälle jo vuonna 2019.
+Törmäsin muutamaan Reddit-julkaisuun ja videoon [^1][^2] tästä aiheesta.  Creative [^3] on tehnyt virallisen laiteohjelmistokorjauksen tälle jo vuonna 2019.
 
 Zip-tiedoston SHA256-tarkistussumma on `8b1e091937f752629a6e354abba452e717e186581a0c31a3152da0332e2d9113` ja tiedostonimi `MF8360 Creative Stage FW upgrader V01.zip`
 
@@ -59,6 +59,13 @@ Irrota  kaiuttimen virta ja vasta sen jälkeen USB-muistitikku. Kytke virta taka
 
 Creativen tukisivun tarjoama laiteohjelmisto ei korjannut ongelmaa, ainoastaan lievensi sitä hieman. Tuo versio näytti pitävän kaiuttimen toiminnassa pidempään, mutta äänen viiveongelma alkoi uudelleen jonkin ajan kuluttua. 
 
-Kokeilin päivittää  kajareihin Youtube-[videon](https://www.youtube.com/watch?v=MdNxCXcltHA) kuvauksessa mainitun laiteohjelmiston, ja tämä versio näyttää itse asiassa toimivan.
+Tämä firmis löytyy [täältä](Stage%20Firmware%20from%20youtube.zip) 
+
+Kokeilin päivittää  kajareihin Youtube-videon [^4] kuvauksessa mainitun laiteohjelmiston, ja tämä versio näyttää itse asiassa toimivan.
 
  Mutta nyt olen huomannut, että Creative Stage -kaiuttimestani kuuluu jatkuvasti hyvin heikkoa sihinää. Päivitän tätä viestiä mahdollisen korjauksen varalta - jos sellainen on.
+
+[^1]: https://www.reddit.com/r/Soundbars/comments/mau0wh/creative_stage_21_dropping_sound_at_specific/)
+[^2]: https://www.youtube.com/watch?v=MdNxCXcltHA
+[^3]: https://support.creative.com/Products/ProductDetails.aspx?catID=4&subCatID=848&prodID=23279&prodName=Creative%20Stage&subCatName=Creative&CatName=
+[^4]: https://www.youtube.com/watch?v=MdNxCXcltHA
