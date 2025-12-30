@@ -21,6 +21,18 @@ Ison palauten määrän perusteella liikenne- ja viestintäministeriö poisti ve
 
 Mielenkiintoisesti Shellit.org huomasi markkinaraon ja alkoi alustavasti tarjoamaan verkkotunnusvälittäjälle jälleenmyyjä alustaa pienellä lisähinnalla. Nerokasta! [^4]
 
+---
+
+Tästä viisastuneena ja fi domainien uusimis hintojen johdosta päätin itse rekisteröityä Traficomille verkkotunnuksenvälittäjäksi ja katkaista välikädet. Prosessi kun on hyvin yksinkertainen.
+
+Täytät vain Traficomin sivuilla olevan hakemuslomakkeen [^5]. Itse täytin yksityishenkilön roolissa, ja merkitin että tarjoamani palvelu on `Verkkotunnusten hallinnointi ilman muita palveluita`
+
+Noin viikon kulutta sain sähköpostia että uusien NIS2 vaatimusten johdosta minun piti täyttää Kybermittari itsearvointi Excel-taulukko, joka vaikutti alussa hieman haastavalta. Tämän Kybermittarin kysymykset oli tarkoitettu enemmän yrityksille kuin yksityisille verkkotunnusvälittäjille. Vastasin tähän kuitenkin rehellisesti ja oman tietoteknisen laitteiston näkökulmasta. 
+
+Seuraavana päivänä sain Traficomilta rekisteröitymislinkin hallintapalveluun ja yllätykseksini näkymä ei oikein eronnut mitenkään muiden domain tarjoajien vastaavasta. Kysymys kuuluukin, että miksi Traficomin pitää tehdä tämmöinen välivaihe yksityisille, sen sijaan että he tarjoasivat fi domainien rekisteröimisen ilman DNS -palvelimia suoraan.
+
+Kannattaa muuten tehdä tämä hakemus ennen 16.1.2026, jolloin tuo domainien hinta kasvaa. Itse rekisteröin suoraan 5vuodeksi kerralla 54€ hintaan.
+
 [^1]: https://www.lausuntopalvelu.fi/FI/Proposal/Participation?proposalId=bb3cd297-6c3b-456e-b647-e434208148ef
 
 [^2]: https://old.reddit.com/r/Suomi/comments/1pt1g8b/traficom_luopuu_esitetyst%C3%A4_fi/
@@ -28,3 +40,5 @@ Mielenkiintoisesti Shellit.org huomasi markkinaraon ja alkoi alustavasti tarjoam
 [^3]: https://valtioneuvosto.fi/paatokset/paatos?decisionId=5370
 
 [^4]: https://www.shellit.org/verkkotunnusten-valitys-uudistuu/
+
+[^5]: https://traficom.fi/fi/viestinta/fi-verkkotunnukset/verkkotunnusvalittajalle/fi-verkkotunnusvalittajaksi-ilmoittautuminen

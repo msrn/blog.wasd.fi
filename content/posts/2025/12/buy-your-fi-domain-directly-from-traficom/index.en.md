@@ -1,5 +1,5 @@
 ---
-title: Buy your fi domain directly from Traficom
+title: Osta fi domainisi suoraan Traficomilta
 draft: true
 date: 2025-12-30
 categories:
@@ -7,16 +7,38 @@ categories:
 tags:
   - tech
 ---
-In recent months, Traficom caused a small "uproar" when the Ministry of Transport and Communications proposed that the price of fi domains would increase from €9 to €12, and that domain name registrars would be charged an annual fee of €400 [^1](https://www.lausuntopalvelu.fi/FI/Proposal/Participation?proposalId=bb3cd297-6c3b-456e-b647-e434208148ef) .
+Viime kuukausina Traficom aiheutti pienen "kohun", kun liikenne- ja viestintäministeriö esitti että fi domainien hinta nousee 9€ -> 12€, ja verkkotunnusvälittäjille asetetaan 400€ vuosimaksu [^1].
 
-The statements given by individuals and companies were generally against it, but some statements were in favor of the proposals. Of these, what caught my eye the most was that the statements in favor were statements from larger web hosting and domain brokerage companies. From the purpose of these statements, it can be assumed that they want to smoke smaller and private actors out of the playing field, that "professional" actors can guarantee a more reliable and secure service. As is evident from this statement by Shellit.org, for example.
+Yksityisten ja yritysten antamat lausunnot olivat pääsääntöisesti vastaan, mutta jotkut lausunnot olivat puoltavia ehdotukset hyväksi. Näistä otti eniten silmään että puoltavat lasunnot oli isompien webhosting ja domain välitysfirmojen lausuntoja. Näiden lausuntojen tarkoitusperistä voi hyvinkin olettaa että halutaan savustaa pienemmät ja yksityiset tekijät pois pelikentältä, että "ammattimaiset" tekijät pystyvät takaamaan luotettavamman ja turvallisemman palvelun. Niinkuin esim tästä Shellit.org lausunnosta käy hyvinkin ilmi.
 
-![](img-2025-12-30-10-53-07.png)
+![](img-2025-12-30-10-53-07.png "Shellit.org lausunto")
 
-I should renew my domain at the beginning of the year, and while researching
+Oma domaini pitäis uusia vuoden alussa, ja tutkiessani että mitä kautta uusimisen voi halvinten tehdä, huomasin että hyvin tyypillinen strategia näillä isoilla tekijöillä on tarjota domain ensirekisteröinti halvalla ja veloittaa yli kolminkertaiset summat uusimisesta. Esimerkiksi yllämainitun Shellit.org tapauksessa normaalintahinta rekisteröimiselle on 21,50€/vuosi, mutta uusimisen hintaa en löytänyt heidän sivuiltaan.
 
-When I was looking for the cheapest way to renew a domain, I noticed that a very typical strategy for these big companies is to offer a cheap initial domain registration and charge more than triple the amount for renewal. For example, in the case of the aforementioned Shellit.org, the normal price for registration is €21.50/year, but I couldn't find the renewal price on their website.
+Ison palauten määrän perusteella liikenne- ja viestintäministeriö poisti verkkotunnusvälittäjä muutoksen asetuksesta, ja aikoo arvioidan asian uudelleen. [^3]
 
-Based on the large number of responses, the Ministry of Transport and Communications removed the domain name registrar change from the regulation, and plans to reassess the matter. [^3](https://valtioneuvosto.fi/paatokset/paatos?decisionId=5370)
+> Asetusluonnoksessa ehdotettu uusi verkkotunnusvälittäjän vuosimaksu (400 euroa) poistetaan asetuksen 2§:stä kokonaan säädösperustan uudelleen arvioinnin johdosta.
 
-> The new annual domain name registrar fee (400 euros) proposed in the draft regulation will be completely removed from Section 2 of the regulation due to the reassessment of the legal basis.
+Mielenkiintoisesti Shellit.org huomasi markkinaraon ja alkoi alustavasti tarjoamaan verkkotunnusvälittäjälle jälleenmyyjä alustaa pienellä lisähinnalla. Nerokasta! [^4]
+
+---
+
+Tästä viisastuneena ja fi domainien uusimis hintojen johdosta päätin itse rekisteröityä Traficomille verkkotunnuksenvälittäjäksi ja katkaista välikädet. Prosessi kun on hyvin yksinkertainen.
+
+Täytät vain Traficomin sivuilla olevan hakemuslomakkeen [^5]. Itse täytin yksityishenkilön roolissa, ja merkitin että tarjoamani palvelu on `Verkkotunnusten hallinnointi ilman muita palveluita`
+
+Noin viikon kulutta sain sähköpostia että uusien NIS2 vaatimusten johdosta minun piti täyttää Kybermittari itsearvointi Excel-taulukko, joka vaikutti alussa hieman haastavalta. Tämän Kybermittarin kysymykset oli tarkoitettu enemmän yrityksille kuin yksityisille verkkotunnusvälittäjille. Vastasin tähän kuitenkin rehellisesti ja oman tietoteknisen laitteiston näkökulmasta.
+
+Seuraavana päivänä sain Traficomilta rekisteröitymislinkin hallintapalveluun ja yllätykseksini näkymä ei oikein eronnut mitenkään muiden domain tarjoajien vastaavasta. Kysymys kuuluukin, että miksi Traficomin pitää tehdä tämmöinen välivaihe yksityisille, sen sijaan että he tarjoasivat fi domainien rekisteröimisen ilman DNS -palvelimia suoraan.
+
+Kannattaa muuten tehdä tämä hakemus ennen 16.1.2026, jolloin tuo domainien hinta kasvaa. Itse rekisteröin suoraan 5vuodeksi kerralla 54€ hintaan.
+
+[^1]: https://www.lausuntopalvelu.fi/FI/Proposal/Participation?proposalId=bb3cd297-6c3b-456e-b647-e434208148ef
+
+[^2]: https://old.reddit.com/r/Suomi/comments/1pt1g8b/traficom_luopuu_esitetyst%C3%A4_fi/
+
+[^3]: https://valtioneuvosto.fi/paatokset/paatos?decisionId=5370
+
+[^4]: https://www.shellit.org/verkkotunnusten-valitys-uudistuu/
+
+[^5]: https://traficom.fi/fi/viestinta/fi-verkkotunnukset/verkkotunnusvalittajalle/fi-verkkotunnusvalittajaksi-ilmoittautuminen
