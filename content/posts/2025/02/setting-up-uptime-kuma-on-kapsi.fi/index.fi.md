@@ -8,6 +8,7 @@ categories:
 tags:
   - tech
   - selfhosting
+slug: uptime-kuma-kayttoonotto-kapsi-fi
 ---
 Pieni tutoriaali [Uptime Kuman](https://github.com/louislam/uptime-kuma) käyttämisestä Kapsi.fi- ympäristössä ilman Dockeria.
 
@@ -17,7 +18,7 @@ Pieni tutoriaali [Uptime Kuman](https://github.com/louislam/uptime-kuma) käytt�
 -   Portti avattu web-sovelluspalvelimille. Pyydä [tätä](https://www.kapsi.fi/palvelut/portit.html) Kapsin ylläpitäjiltä.
 -   ssh
 -   (Valinnainen) Oma verkkotunnusosoite
-
+<!--more-->
 ## Vaiheet:
 
 1.  Ssh:ta webapp-bullseye-palvelimelle `ssh <account>@webapp-bullseye.kapsi.fi`
