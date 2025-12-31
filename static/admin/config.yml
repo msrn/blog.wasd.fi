@@ -24,7 +24,7 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/posts'
-    path: '{{year}}/{{month}}/{{slug}}/index'
+    path: '{{year}}/{{month}}/{{translationKey}}/index'
     media_folder: ''
     public_folder: ''
     create: true
