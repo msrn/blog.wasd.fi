@@ -28,14 +28,14 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
-    slug: '{{slug}}'
+    slug: '{{title}}'
     i18n: true
     editor:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: duplicate}
-      - { label: 'Slug', name: 'slug', widget: 'string' , i18n: true}
+#      - { label: 'Slug', name: 'slug', widget: 'string' , i18n: true}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , i18n: duplicate}
       - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate}
       - { label: 'Tags', name: 'tags', widget: 'list', i18n: duplicate}
