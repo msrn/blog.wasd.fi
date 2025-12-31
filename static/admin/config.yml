@@ -28,7 +28,7 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
-    slug: '{{fields._slug | localize}}'
+    slug: '{{title | localize}}'
     i18n: true
     editor:
       preview: true
