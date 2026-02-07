@@ -29,7 +29,7 @@ collections:
     public_folder: ''
     create: true
     slug: "{{slug}}"
-    i18n: true
+    i18n: false
     editor:
       preview: true
     fields:
@@ -45,7 +45,8 @@ collections:
     files:
       - label: 'About Page'
         name: 'about'
-        file: 'content/about/index.{{locale}}.md '
+        file: 'content/about/index.{{locale}}.md'
+        i18n: true
         fields:
           - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
           - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: duplicate}
