@@ -1,12 +1,14 @@
 ---
 title: Creative Stage v1:n ääniviiveen firmwarekorjaus
 draft: false
+slug: creative-stage-v1-aaniviiveen-firmwarekorjaus
 date: 2025-10-21
 categories:
   - tutorial
 tags:
   - tech
 ---
+
 Olen pitkään luullut, että videon tai äänen toiston alussa ilmenevä viive johtui jotenkin käyttöjärjestelmästäni - Aurora Linuxista. Ongelma johtui kuitenkin Cretive Stage v1 -soundbaristani. Näin käy, kun ääntä ei ole toistettu vähään aikaan, etenkin jos kaiuttimesta ei kuulu hiljaista "sihinää".
 
 Törmäsin muutamaan Reddit-julkaisuun ja videoon [^1][^2] tästä aiheesta.  Creative [^3] on tehnyt virallisen laiteohjelmistokorjauksen tälle jo vuonna 2019.
@@ -30,10 +32,10 @@ Ohje on seuraavanlainen. Tarvitset muistitikun, jonka kapasiteetti on alle 32 Gt
 >     Plug in the speaker to the mains and power up the soundbar again.
 >     Update complete.
 
-Valmistele ensin USB-asema ja alusta se FAT32-muotoon. Kopioi sitten järjestelmän kansio juureen. Kansiorakenteen pitäisi näyttää tältä. 
+Valmistele ensin USB-asema ja alusta se FAT32-muotoon. Kopioi sitten järjestelmän kansio juureen. Kansiorakenteen pitäisi näyttää tältä.
 
 ```plain
-mikael at meso in media/mikael/565C-50B8 
+mikael at meso in media/mikael/565C-50B8
 ✗  tree
 .
 └── system
@@ -57,9 +59,9 @@ Irrota  kaiuttimen virta ja vasta sen jälkeen USB-muistitikku. Kytke virta taka
 
 ## Vaihtoehtoinen firmware
 
-Creativen tukisivun tarjoama laiteohjelmisto ei korjannut ongelmaa, ainoastaan lievensi sitä hieman. Tuo versio näytti pitävän kaiuttimen toiminnassa pidempään, mutta äänen viiveongelma alkoi uudelleen jonkin ajan kuluttua. 
+Creativen tukisivun tarjoama laiteohjelmisto ei korjannut ongelmaa, ainoastaan lievensi sitä hieman. Tuo versio näytti pitävän kaiuttimen toiminnassa pidempään, mutta äänen viiveongelma alkoi uudelleen jonkin ajan kuluttua.
 
-Tämä firmis löytyy [täältä](Stage%20Firmware%20from%20youtube.zip) 
+Tämä firmis löytyy [täältä](Stage%20Firmware%20from%20youtube.zip)
 
 Kokeilin päivittää  kajareihin Youtube-videon [^4] kuvauksessa mainitun laiteohjelmiston, ja tämä versio näyttää itse asiassa toimivan.
 
