@@ -1,6 +1,6 @@
 ---
 title: testifi
-draft: true
+draft: false
 slug: testifi
 date: 2026-02-07
 categories:

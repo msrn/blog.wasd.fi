@@ -1,6 +1,6 @@
 ---
 title: testien
-draft: true
+draft: false
 slug: testien
 date: 2026-02-07
 categories:
