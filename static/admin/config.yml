@@ -41,11 +41,10 @@ collections:
       - { label: 'Tags', name: 'tags', widget: 'list', i18n: duplicate}
       - { label: 'Body', name: 'body', widget: 'markdown' , i18n: true}
   - name: 'pages'
-    label: 'Pages'  
+    label: 'Pages'
     files:
       - label: 'About Page'
         name: 'about'
-        i18n: true
         file: 'content/about/index.{{locale}}.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
