@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - tech
+slug: wd-mybook-kotelon-uudelleenkäyttö
 ---
 
 Törmäsin tähän mr[ Steven](https://www.youtube.com/watch?v=0qpdQQgWKvQ) YouTube-videoon, jossa esiteltiin, miten olemassa oleva WD MyBook -kotelo saadaan toimimaan minkä tahansa SATA-kiintolevyn kanssa. Minullahan sattui olemaan kolme sellaista.
