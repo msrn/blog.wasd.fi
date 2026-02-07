@@ -1,5 +1,5 @@
 ---
-translationKey: 2025/05/reusing-wd-mybook-enclosure/index
+translationKey: reusing-wd-mybook-enclosure
 title: Reusing WD MyBook Enclosure (ASMedia chipset)
 draft: false
 date: 2025-05-20

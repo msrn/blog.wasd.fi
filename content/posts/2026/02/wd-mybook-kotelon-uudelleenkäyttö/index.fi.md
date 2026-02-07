@@ -1,5 +1,5 @@
 ---
-translationKey: 2025/05/reusing-wd-mybook-enclosure/index
+translationKey: reusing-wd-mybook-enclosure
 title: WD MyBook -kotelon uudelleenkäyttö (ASMedia-piirisarja)
 draft: false
 date: 2025-05-20
@@ -29,8 +29,8 @@ Selattuani internetiä löysin useita ehdotuksia tämän tekemiseksi.
 
 Kuten tämä [työkalu](https://www.reddit.com/r/DataHoarder/comments/p8s4cb/is_there_a_workaround_for_using_a_2021_wd_mybook/kji6yng/) ja [tämä](https://www.reddit.com/r/DataHoarder/comments/p8s4cb/is_there_a_workaround_for_using_a_2021_wd_mybook/i4gkany/) tapa.
 
-Kaikissa näissä menetelmissä jouduit oikosulkemaan joitakin Winbond SPI:n nastoja ja sitten asentamaan flash- sirulle mukautetun laiteohjelmiston. Tulokset näyttivät vaihtelevilta. 
-Tässä postauksessa en aio kuitenkaan yrittää tehdä tätä kikkaa JMicron-ohjaimelle, vaan ASMedialle. 
+Kaikissa näissä menetelmissä jouduit oikosulkemaan joitakin Winbond SPI:n nastoja ja sitten asentamaan flash- sirulle mukautetun laiteohjelmiston. Tulokset näyttivät vaihtelevilta.
+Tässä postauksessa en aio kuitenkaan yrittää tehdä tätä kikkaa JMicron-ohjaimelle, vaan ASMedialle.
 
 Mutta aion pitää nuo piirilevyt tallessa, jotta voin kokeilla sitä tulevaisuudessa, kun minulla on enemmän aikaa.
 
