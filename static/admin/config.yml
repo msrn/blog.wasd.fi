@@ -33,13 +33,13 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' , i18n: true, required: false}
+      - { label: 'Title', name: 'title', widget: 'string' , i18n: true, required: [en]}
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: duplicate}
       - { label: 'Slug', name: 'slug', widget: 'string' , i18n: true, required: false}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , i18n: duplicate, required: false}
-      - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate, required: false}
-      - { label: 'Tags', name: 'tags', widget: 'list', i18n: duplicate, required: false}
-      - { label: 'Body', name: 'body', widget: 'markdown' , i18n: true, required: false}
+      - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate, required: [en]}
+      - { label: 'Tags', name: 'tags', widget: 'list', i18n: duplicate, required: [en]}
+      - { label: 'Body', name: 'body', widget: 'markdown' , i18n: true, required: [en]}
   - name: 'pages'
     label: 'Pages'
     files:
