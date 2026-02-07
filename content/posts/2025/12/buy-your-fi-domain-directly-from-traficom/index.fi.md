@@ -1,19 +1,21 @@
 ---
 title: Osta fi domainisi suoraan Traficomilta
 draft: false
+slug: osta-fi-domainisi-suoraan-traficomilta
 date: 2025-12-30
 categories:
   - article
 tags:
   - tech
 ---
+
 Viime kuukausina Traficom aiheutti pienen "kohun", kun liikenne- ja viestintäministeriö esitti että fi domainien hinta nousee 9€ -> 12€, ja verkkotunnusvälittäjille asetetaan 400€ vuosimaksu [^1].
 
 Yksityisten ja yritysten antamat lausunnot olivat pääsääntöisesti tätä vastaan, mutta jotkut lausunnot olivat puoltavia ehdotuksen hyväksi. Näistä otti eniten silmään että puoltavat lasunnot oli isompien webhosting ja domain välitysfirmojen lausuntoja. Näiden lausuntojen tarkoitusperistä voi hyvinkin olettaa että halutaan savustaa pienemmät ja yksityiset tekijät pois pelikentältä, että "ammattimaiset" tekijät pystyvät takaamaan luotettavamman ja turvallisemman palvelun. Näin ainakin väitetään. Taustallaha on vain kilpailukentän kaventaminen, ja jos esim yksityisten käyttäjien välittäjästatuksesta tulee liian vaikeeta, niin nämä asiakkaat siirtyvät luonnollisesti isompien tarjoajien asiakkaiksi. Niinkuin esim tästä Shellit.org lausunnosta käy hyvinkin ilmi, joka hieman häkellyttää kuinka suorasti halutaan rajoittaa kilpailua, ja ajaa enemmän taalereita omaan laariin.
 
 ![](img-2025-12-30-10-53-07.png "Shellit.org lausunto")
 
----
+***
 
 Oma domaini pitäis uusia vuoden alussa, ja tutkiessani että mitä kautta uusimisen voi halvinten tehdä, huomasin että hyvin tyypillinen strategia näillä isoilla tekijöillä on tarjota domain ensirekisteröinti halvalla ja veloittaa jossain tapauksissa yli kolminkertaiset summat uusimisesta. Esimerkiksi yllämainitun Shellit.org tapauksessa normaalintahinta rekisteröimiselle on 21,50€/vuosi, mutta uusimisen hintaa en löytänyt heidän sivuiltaan.
 
@@ -23,7 +25,7 @@ Palautteesta johtuen  liikenne- ja viestintäministeriö poisti verkkotunnusväl
 
 Mielenkiintoisesti Shellit.org huomasi markkinaraon ja alkoi alustavasti tarjoamaan verkkotunnusvälittäjälle jälleenmyyjä alustaa pienellä lisähinnalla. Nerokasta! [^4]
 
----
+***
 
 Tästä viisastuneena ja fi domainien uusimishintojen johdosta päätin itse rekisteröityä Traficomille verkkotunnuksenvälittäjäksi ja katkaista välikädet. Prosessi kun on hyvin yksinkertainen. En ymmärrä miksi en ollut aikaisemmin tehnyt tätä, varmaan olen olettanut että kyseessä olisi hirveä määrä byrokratiaa.
 

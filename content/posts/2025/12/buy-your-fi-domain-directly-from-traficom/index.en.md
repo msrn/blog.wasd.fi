@@ -1,19 +1,21 @@
 ---
 title: Buy your fi domain directly from Traficom
 draft: false
+slug: ''
 date: 2025-12-30
 categories:
   - article
 tags:
   - tech
 ---
+
 In recent months, Traficom caused a small "uproar" when the Ministry of Transport and Communications proposed that the price of fi domains would increase from €9 to €12, and that domain name registrars would be charged an annual fee of €400 [^1].
 
 The statements given by individuals and companies were generally against it, but some statements were in favour of the proposals. Of these, what caught my eye the most was that the statements in favour were statements from larger web hosting and domain brokerage companies. From the purpose of these statements, it can be assumed that they want to smoke smaller and private actors out of the playing field, that "professional" actors can guarantee a more reliable and secure service. At least that's what they say. The background in reality is only for narrowing the field of competition, and if, for example, private customers registry status becomes too difficult, then these customers will naturally switch to be customers of these  larger providers. As, for example, it is clear from this Shellit.org statement, which is a bit shocking how directly they want to limit competition, and drive more money into their own pockets.
 
 ![](img-2025-12-30-10-53-07.png "Shellit.org statement")
 
----
+***
 
 I need to renew my domain at the beginning of the year, and when I was researching where the cheapest way to renew is, I noticed that a very typical strategy for these big companies is to offer a cheap initial domain registration and charge more than triple the amount for renewal. For example, in the case of the aforementioned Shellit.org, the normal price for registration is €21.50/year, but I couldn't find the renewal price on their website.
 
@@ -23,7 +25,7 @@ Based on the large number of responses, the Ministry of Transport and Communicat
 
 Interestingly, Shellit.org saw a niche and started offering a reseller platform to domain registrars for a small additional fee. Brilliant! [^4]
 
----
+***
 
 Having learned from this and due to the renewal prices of fi domains, I decided to register with Traficom as a domain name registrar myself and cut out the middlemen. The process is very simple.
 
