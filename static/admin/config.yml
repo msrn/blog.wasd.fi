@@ -31,7 +31,7 @@ collections:
     slug: "{{slug}}"
     i18n: true
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' , i18n: true, required: [en]}
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: duplicate}
@@ -45,7 +45,7 @@ collections:
     files:
       - label: 'About Page'
         name: 'about'
-        file: 'content/about/index.{{locale}}.md'
+        file: 'content/about/_index.{{locale}}.md'
         i18n: true
         fields:
           - { label: 'Title', name: 'title', widget: 'string' , i18n: true}

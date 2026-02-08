@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: About
 author : "Mikael"
 draft: false
 date: 2025-10-04
