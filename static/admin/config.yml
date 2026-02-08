@@ -31,7 +31,7 @@ collections:
     slug: "{{slug}}"
     i18n:
       structure: multiple_files
-      locales: [en]
+      locales: [en,fi]
     editor:
       preview: true
     fields:
