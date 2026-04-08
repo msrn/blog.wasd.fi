@@ -20,7 +20,7 @@ N-3B parkoihin olen aikaisemmin päässyt tutustumaan vain Alpha Industriesin re
 Oma takkini on tehty vuonna 1976 Lancer Corporationin toimesta. Tiettävästi tämä on juuri se versio missä siirrytiin kokonaan keinokuituihin sisälmyksien osalta ja ulkopuoli oli joko nylon-puuvilla sekoitetta tai sitten 100% puuvillaa [^2].
 ![](pasted-image-1775629673143.png "Tuotetiedot")
 
-Harmillisesti en löytänyt oman version MIL-P dokumenttia, mutta esim vuoden 1993 \`MIL-P-6279L\` speksi löytyi [^3]. 
+Harmillisesti en löytänyt oman version MIL-P dokumenttia, mutta esim vuoden 1993 \`MIL-P-6279L\` speksi löytyi [^3].
 Tosin eipä näissä dokumenteista selviä juurisyyt materiaalivalinnoille. Ironsnailin videossa argumentoitiin, että paremman nylon ja puuvillan blendin takia  päälymateriaali pystyi kuivumaan nopeammin, ja sen takia pystyttiin vaihtamaan villasta paksumaan polyesteri toppaukseen. Jonka johdosta myös takin paino tippui silti säilyttäen samat ominaisuudet kuivumisen ja lämmön osalta kuin 50-60 luvun villaversiossa [^4].
 
 Takin todellinen testaus -30c pakkasissa kuitenkin saa odottaa talvelle, jolloin voisin kirjoittaa lisänootin tähän juttuun. Virallisesti takki on speksattu -50c pakkasiin. Uskon kumminkin että tämä parka toimii noissa lämpötiloissa paremmin kuin aikaisemmin käyttämäni Tsekin armeijan M85 parka vuodelta 1988.
