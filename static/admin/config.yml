@@ -25,8 +25,8 @@ collections:
     label: 'Blog'
     folder: 'content/posts'
     path: '{{year}}/{{month}}/{{slug}}/index'
-    media_folder: ''
-    public_folder: ''
+    media_folder: /public/uploads/blog
+    public_folder: /uploads/blog
     create: true
     slug: "{{slug}}"
     i18n:
