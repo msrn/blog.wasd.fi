@@ -1,6 +1,6 @@
 ---
 title: USAF N-3B Parka
-draft: true
+draft: false
 slug: ''
 date: 2026-04-08
 categories:
