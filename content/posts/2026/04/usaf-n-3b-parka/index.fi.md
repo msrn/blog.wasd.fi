@@ -13,11 +13,11 @@ Bongasin Kohka.fi -verkkokaupasta[^1] suhteellisen halutun USAF N-3B Parka takin
 
 N-3B parkoihin olen aikaisemmin päässyt tutustumaan vain Alpha Industriesin repro takkien puolelta, ja näihin verrattuna tämä aito on huomattavasti jykevämpi ja vähän karumpi. Perus armeijatyyliä siis.
 
-![Kuva takista](/2026/04/usaf-n-3b-parka/takki.png "Kyllähän tästä The Thing vibat tulee")
+![Kuva takista](takki.png "Kyllähän tästä The Thing vibat tulee")
 
 Mukana myös mysteerinen "Inspected by #2" lappu.
 
-![inspected by 2 lappu](/2026/04/usaf-n-3b-parka/lappu.png "Mysteerilappu")
+![inspected by 2 lappu](lappu.png "Mysteerilappu")
 
 Oma takkini on tehty vuonna 1976 Lancer Corporationin toimesta. Tiettävästi tämä on juuri se versio missä siirrytiin kokonaan keinokuituihin sisälmyksien osalta ja ulkopuoli oli joko nylon-puuvilla sekoitetta tai sitten 100% puuvillaa [^2].
 ![Tuotetiedot](pasted-image-1775629673143.png "Tuotetiedot")
