@@ -15,6 +15,8 @@ N-3B parkoihin olen aikaisemmin päässyt tutustumaan vain Alpha Industriesin re
 
 ![](pasted-image-1775628916666.png "Kyllähän tästä The Thing -elokuvan vibat tulee")
 
+Mukana myös mysteerinen "Inspected by #2" lappu.
+
 ![](pasted-image-1775629656869.png "Mysteerilappu")
 
 Oma takkini on tehty vuonna 1976 Lancer Corporationin toimesta. Tiettävästi tämä on juuri se versio missä siirrytiin kokonaan keinokuituihin sisälmyksien osalta ja ulkopuoli oli joko nylon-puuvilla sekoitetta tai sitten 100% puuvillaa [^2].
