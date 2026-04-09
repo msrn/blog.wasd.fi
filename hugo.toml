@@ -3,10 +3,7 @@ languageCode = 'en-uk'
 title = 'Wasd blog'
 theme = 'hugo-blog-awesome'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
-
-
-
+defaultContentLanguageInSubdir = false
 
 
 
