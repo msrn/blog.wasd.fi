@@ -7,6 +7,7 @@ categories:
   - tech
 tags:
   - tutorial
+translationKey: mount-smb-shares-on-linux
 ---
 
 asd

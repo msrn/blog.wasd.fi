@@ -7,6 +7,7 @@ categories:
   - article
 tags:
   - tech
+translationKey: buy-your-fi-domain-directly-from-traficom
 ---
 
 Viime kuukausina Traficom aiheutti pienen "kohun", kun liikenne- ja viestintäministeriö esitti että fi domainien hinta nousee 9€ -> 12€, ja verkkotunnusvälittäjille asetetaan 400€ vuosimaksu [^1].

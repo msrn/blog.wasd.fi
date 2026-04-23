@@ -7,6 +7,7 @@ categories:
   - article
 tags:
   - clothes
+translationKey: usaf-n-3b-parka
 ---
 
 Bongasin Kohka.fi -verkkokaupasta[^1] suhteellisen halutun USAF N-3B Parka takin, joita ei ainakaan suomalaisissa ylijäämäkaupoissa kovin usein ole tultu nähtyä. Ostin takin pienen mietinnän jälkeen, koska miksi ostaisin talvitakin kesän kynnyksellä? Testaamaan sitä en pääsisi, ja varmaan tulen ostamaan muitakin talvitakkeja pitkin vuotta. Noh, kuka tietää mutta M koon takki tuli postissa ja ensi vaikutelma "Eau De Ylijäämä" hajun lisäksi oli kuinka painava takki on.
