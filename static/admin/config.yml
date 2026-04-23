@@ -8,7 +8,7 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'blog en'
+  - name: 'blog-en'
     label: 'Blog'
     folder: 'content/posts'
     path: '{{year}}/{{month}}/{{slug}}/index.en.md'
