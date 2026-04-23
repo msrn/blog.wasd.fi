@@ -9,7 +9,7 @@ media_folder: static/img
 public_folder: /img
 collections:
   - name: 'blog-en'
-    label: 'Blog'
+    label: 'Blog EN'
     folder: 'content/posts'
     path: '{{year}}/{{month}}/{{slug}}/index.en'
     media_folder: ''
@@ -22,6 +22,24 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: true}
       - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'en'}
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
+      - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate}
+      - { label: 'Tags', name: 'tags', widget: 'list'}
+      - { label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'blog-fi'
+    label: 'Blog FI'
+    folder: 'content/posts'
+    path: '{{year}}/{{month}}/{{slug}}/index.fi'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: true}
+      - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'fi'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
       - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate}
       - { label: 'Tags', name: 'tags', widget: 'list'}
