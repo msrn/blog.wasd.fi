@@ -8,6 +8,7 @@ categories:
 tags:
   - tech
   - selfhosting
+translationKey: setting-up-uptime-kuma-on-kapsi.fi
 ---
 Small tutorial on how to run [Uptime Kuma](https://github.com/louislam/uptime-kuma) on Kapsi.fi shared hosting environment without Docker.
 
