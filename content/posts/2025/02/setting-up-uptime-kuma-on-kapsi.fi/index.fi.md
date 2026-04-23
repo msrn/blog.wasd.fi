@@ -9,6 +9,7 @@ tags:
   - tech
   - selfhosting
 slug: uptime-kuma-kayttoonotto-kapsi-fi
+translationKey: setting-up-uptime-kuma-on-kapsi.fi
 ---
 Pieni tutoriaali [Uptime Kuman](https://github.com/louislam/uptime-kuma) käyttämisestä Kapsi.fi- ympäristössä ilman Dockeria.
 

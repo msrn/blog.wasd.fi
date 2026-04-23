@@ -6,6 +6,8 @@ categories:
   - random
 tags:
   - media
+translationKey: the-bridge-and-gene-sprague
+slug: the-bridge-ja-gene-sprague
 ---
 Katsoin hiljattain hieman surullisenkuuluisan Bridge-dokumentin vuodelta 2006, jossa keskitytään Golden Gaten itsemurhahyppääjiin. Kriittisesti dokumentti sai keskinkertaisen arvosanan, mutta henkilökohtaisesti se on yksi niistä elokuvista, jotka vain juuttuvat päähän joksikin aikaa.
 
