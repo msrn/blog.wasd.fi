@@ -11,7 +11,7 @@ collections:
   - name: 'blog-en'
     label: 'Blog'
     folder: 'content/posts'
-    path: '{{year}}/{{month}}/{{slug}}/index.en.md'
+    path: '{{year}}/{{month}}/{{slug}}/index.en'
     media_folder: ''
     public_folder: ''
     create: true
