@@ -15,7 +15,7 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
-    slug: '{{fields.langkey | localize}}'
+    slug: '{{langkey | localize}}'
     editor:
       preview: true
     fields:
@@ -34,7 +34,7 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
-    slug: '{{fields.langkey | localize}}'
+    slug: '{{langkey | localize}}'
     editor:
       preview: true
     fields:
