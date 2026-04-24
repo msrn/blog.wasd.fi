@@ -1,5 +1,4 @@
 ---
-translationKey: ''
 title: tests
 draft: false
 language: en
