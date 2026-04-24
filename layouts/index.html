@@ -1,42 +1,32 @@
 {{ define "main" }}
-  {{- $allPages := slice }}
+  <div class="homepage-content">
+    {{ .Content }}
+  </div>
 
-  {{- range .Site.Sites }}
-    {{- $thisSite := . }}
-    {{- range where .RegularPages "Type" "posts" }}
-      {{- $skip := false }}
-      {{- if ne $thisSite.Language.Lang $.Site.Language.Lang }}
-        {{- if .Translations }}
-          {{- $skip = true }}
+  <div class="articles h-feed">
+    {{- $allPages := slice }}
+
+    {{- range .Site.Sites }}
+      {{- $thisSite := . }}
+      {{- range where .RegularPages "Type" "posts" }}
+        {{- $skip := false }}
+        {{- if ne $thisSite.Language.Lang $.Site.Language.Lang }}
+          {{- if .Translations }}
+            {{- $skip = true }}
+          {{- end }}
+        {{- end }}
+        {{- if not $skip }}
+          {{- $allPages = $allPages | append . }}
         {{- end }}
       {{- end }}
-      {{- if not $skip }}
-        {{- $allPages = $allPages | append . }}
-      {{- end }}
     {{- end }}
-  {{- end }}
 
-  {{- $allPages = sort $allPages "Date" "desc" }}
+    {{- $allPages = sort $allPages "Date" "desc" }}
 
-  <div class="post-list h-feed">
-    {{- range $allPages }}
-      {{- $showFullContent := in site.Params.sectionsWithFullContentOnListPage .Section }}
-      <div class="post-card h-entry">
-        <div class="post-header">
-          <header>
-            <h2 class="p-name post-title{{ if .Params.favorite }} favorite{{ end }}{{ if .Params.draft }} draft{{ end }}">
-              <a class="u-url" href="{{ .RelPermalink }}">{{ trim .Title " " | markdownify }}</a>
-            </h2>
-            {{ partial "post-language-switcher.html" . }}
-          </header>
-        </div>
-        {{ if $showFullContent }}
-          {{ .Content }}
-        {{ else }}
-          <p class="p-summary post-summary">{{ .Summary }}</p>
-        {{ end }}
-        {{ partial "post-info.html" . }}
-      </div>
-    {{- end }}
+    {{ range (.Paginate $allPages).Pages }}
+      {{ partial "post-summary.html" . }}
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
   </div>
 {{ end }}
