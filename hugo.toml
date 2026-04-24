@@ -5,6 +5,8 @@ theme = 'anubis2'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 
+[params.anubis2]
+
 [languages]
   [languages.fi]
     #contentDir = 'content/fi'
