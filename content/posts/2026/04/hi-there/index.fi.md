@@ -1,7 +1,7 @@
 ---
 translationKey: hi-there
 title: moi-vaan
-draft: true
+draft: false
 language: fi
 langkey: hi-there
 slug: moi-vaan
