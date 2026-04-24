@@ -1,6 +1,6 @@
 ---
 translationKey: ''
-title: test
+title: tests
 draft: false
 language: en
 date: 2026-04-24
