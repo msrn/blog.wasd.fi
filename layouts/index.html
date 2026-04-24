@@ -5,8 +5,6 @@
     {{- $thisSite := . }}
     {{- range where .RegularPages "Type" "posts" }}
       {{- $skip := false }}
-      {{/* If this is NOT the default language site, skip pages that have
-           a translation — the default-language version is already collected */}}
       {{- if ne $thisSite.Language.Lang $.Site.Language.Lang }}
         {{- if .Translations }}
           {{- $skip = true }}
@@ -20,23 +18,25 @@
 
   {{- $allPages = sort $allPages "Date" "desc" }}
 
-  {{- range $allPages }}
-    {{- $showFullContent := in site.Params.sectionsWithFullContentOnListPage .Section }}
-    <div class="post-short-list h-entry">
-      <div class="post-header">
-        <header>
-          <h2 class="p-name post-title{{ if .Params.favorite }} favorite{{ end }}{{ if .Params.draft }} draft{{ end }}">
-            <a class="u-url" href="{{ .RelPermalink }}">{{ trim .Title " " | markdownify }}</a>
-          </h2>
-          {{ partial "post-language-switcher.html" . }}
-        </header>
+  <div class="post-list h-feed">
+    {{- range $allPages }}
+      {{- $showFullContent := in site.Params.sectionsWithFullContentOnListPage .Section }}
+      <div class="post-card h-entry">
+        <div class="post-header">
+          <header>
+            <h2 class="p-name post-title{{ if .Params.favorite }} favorite{{ end }}{{ if .Params.draft }} draft{{ end }}">
+              <a class="u-url" href="{{ .RelPermalink }}">{{ trim .Title " " | markdownify }}</a>
+            </h2>
+            {{ partial "post-language-switcher.html" . }}
+          </header>
+        </div>
+        {{ if $showFullContent }}
+          {{ .Content }}
+        {{ else }}
+          <p class="p-summary post-summary">{{ .Summary }}</p>
+        {{ end }}
+        {{ partial "post-info.html" . }}
       </div>
-      {{ if $showFullContent }}
-        {{ .Content }}
-      {{ else }}
-        <p class="p-summary post-summary">{{ .Summary }}</p>
-      {{ end }}
-      {{ partial "post-info.html" . }}
-    </div>
-  {{- end }}
+    {{- end }}
+  </div>
 {{ end }}
