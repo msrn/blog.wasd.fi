@@ -1,5 +1,5 @@
 ---
-translationKey: asdasdasd
+translationKey: asdasdasd-en
 title: hi there
 draft: false
 language: en
