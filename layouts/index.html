@@ -1,11 +1,25 @@
 {{ define "main" }}
   {{- $allPages := slice }}
+
   {{- range .Site.Sites }}
+    {{- $thisSite := . }}
     {{- range where .RegularPages "Type" "posts" }}
-      {{- $allPages = $allPages | append . }}
+      {{- $skip := false }}
+      {{/* If this is NOT the default language site, skip pages that have
+           a translation — the default-language version is already collected */}}
+      {{- if ne $thisSite.Language.Lang $.Site.Language.Lang }}
+        {{- if .Translations }}
+          {{- $skip = true }}
+        {{- end }}
+      {{- end }}
+      {{- if not $skip }}
+        {{- $allPages = $allPages | append . }}
+      {{- end }}
     {{- end }}
   {{- end }}
+
   {{- $allPages = sort $allPages "Date" "desc" }}
+
   {{- range $allPages }}
     {{- $showFullContent := in site.Params.sectionsWithFullContentOnListPage .Section }}
     <div class="post-short-list h-entry">
@@ -19,6 +33,8 @@
       </div>
       {{ if $showFullContent }}
         {{ .Content }}
+      {{ else }}
+        <p class="p-summary post-summary">{{ .Summary }}</p>
       {{ end }}
       {{ partial "post-info.html" . }}
     </div>
