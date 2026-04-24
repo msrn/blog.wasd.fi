@@ -22,7 +22,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: true}
       - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'en'}
-      - { label: 'Translation key', name: 'translationKey', widget: 'string', required: true}
+      - { label: 'Translation key', name: 'translationKey', widget: 'string', required: true, i18n: true}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
       - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate}
       - { label: 'Tags', name: 'tags', widget: 'list'}
@@ -41,7 +41,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: true}
       - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'fi'}
-      - { label: 'Translation key', name: 'translationKey', widget: 'string', required: true}
+      - { label: 'Translation key', name: 'translationKey', widget: 'string', required: true, i18n: true}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
       - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate}
       - { label: 'Tags', name: 'tags', widget: 'list'}
