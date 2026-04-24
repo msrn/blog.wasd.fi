@@ -1,0 +1,32 @@
+{{ define "main" }}
+  {{- $allPages := slice }}
+
+  {{- range .Site.Sites }}
+    {{- $lang := .Language.Lang }}
+    {{- range where .RegularPages "Type" "posts" }}
+      {{- $allPages = $allPages | append . }}
+    {{- end }}
+  {{- end }}
+
+  {{- $allPages = sort $allPages "Date" "desc" }}
+
+  {{- range $allPages }}
+    <div class="post-short-list h-entry">
+                <div class="post-header">
+                    <header>
+                        <h2 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}"><a class="u-url" href="{{ .RelPermalink }}">{{ trim .Title " " | markdownify }}</a></h2>
+                        {{ partial "post-language-switcher.html" . }}
+                    </header>
+                </div>
+                {{ if $showFullContent }}
+                    {{ .Content }}
+                {{ end }}
+                {{ partial "post-info.html" . }}
+            </div>
+        {{ end }}
+        {{ if $showFullContent }}
+            {{ partial "pagination.html" . }}
+        {{ end}}
+    </div>
+  {{- end }}
+{{ end }}
