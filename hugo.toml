@@ -3,7 +3,7 @@ languageCode = 'en-uk'
 title = 'Wasd blog'
 theme = 'anubis2'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [params.anubis2]
 
