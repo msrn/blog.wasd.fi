@@ -1,7 +1,7 @@
 ---
-translationKey: testi-joo
+translationKey: ''
 title: testi joo
-draft: true
+draft: false
 language: fi
 date: 2026-04-23
 categories:
