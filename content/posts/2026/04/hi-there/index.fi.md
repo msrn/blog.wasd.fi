@@ -12,4 +12,4 @@ tags:
   - asd
 ---
 
-asd
+asd![](FLIR1000001.jpeg)
