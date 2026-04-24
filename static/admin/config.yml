@@ -15,14 +15,14 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
-    slug: '{{slug}}'
+    slug: '{{title | localize}}'
     editor:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
       - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'en'}
-      - { label: 'Translation key', name: 'translationKey', widget: 'uuid', required: true}
+      - { label: 'Translation key', name: 'translationKey', widget: 'text'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
       - { label: 'Category', name: 'categories', widget: 'list'}
       - { label: 'Tags', name: 'tags', widget: 'list'}
@@ -34,14 +34,14 @@ collections:
     media_folder: ''
     public_folder: ''
     create: true
-    slug: '{{slug}}'
+    slug: '{{title | localize}}'
     editor:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
       - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'fi'}
-      - { label: 'Translation key', name: 'translationKey', widget: 'uuid', required: true}
+      - { label: 'Translation key', name: 'translationKey', widget: 'text'}
       - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
       - { label: 'Category', name: 'categories', widget: 'list'}
       - { label: 'Tags', name: 'tags', widget: 'list'}
