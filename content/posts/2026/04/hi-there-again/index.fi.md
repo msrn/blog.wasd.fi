@@ -1,7 +1,7 @@
 ---
 translationKey: hi-there-again
 title: moikka taas
-draft: true
+draft: false
 language: fi
 langkey: hi-there-again
 slug: moikka-taas
