@@ -7,7 +7,7 @@
       {{- $allPages = $allPages | append . }}
     {{- end }}
   {{- end }}
-
+  {{ $showFullContent := in site.Params.sectionsWithFullContentOnListPage .Section }}
   {{- $allPages = sort $allPages "Date" "desc" }}
 
   {{- range $allPages }}
