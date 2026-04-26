@@ -6,7 +6,7 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
 [params.anubis2]
-
+    enableReadMoreButton = true
 [languages]
   [languages.fi]
     #contentDir = 'content/fi'
