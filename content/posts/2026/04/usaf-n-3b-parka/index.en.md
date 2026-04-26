@@ -21,7 +21,7 @@ Mukana myös mysteerinen "Inspected by #2" lappu.
 ![inspected by 2 lappu](lappu.png "Mysteerilappu")
 
 Oma takkini on tehty vuonna 1976 Lancer Corporationin toimesta. Tiettävästi tämä on juuri se versio missä siirrytiin kokonaan keinokuituihin sisälmyksien osalta ja ulkopuoli oli joko nylon-puuvilla sekoitetta tai sitten 100% puuvillaa [^2].
-![Tuotetiedot](pasted-image-1775629673143.png "Tuotetiedot")
+![Tuotetiedot](tiedot.png "Tuotetiedot")
 
 Harmillisesti en löytänyt oman version MIL-P dokumenttia, mutta esim vuoden 1993 \`MIL-P-6279L\` speksi löytyi [^3].
 Tosin eipä näissä dokumenteista selviä juurisyyt materiaalivalinnoille. Ironsnailin videossa argumentoitiin, että paremman nylon ja puuvillan blendin takia  päälymateriaali pystyi kuivumaan nopeammin, ja sen takia pystyttiin vaihtamaan villasta paksumaan polyesteri toppaukseen. Jonka johdosta myös takin paino tippui silti säilyttäen samat ominaisuudet kuivumisen ja lämmön osalta kuin 50-60 luvun villaversiossa [^4].

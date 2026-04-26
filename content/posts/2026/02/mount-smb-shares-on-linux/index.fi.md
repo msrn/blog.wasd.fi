@@ -4,9 +4,10 @@ draft: true
 slug: mounttaa-SMB-kansiot-Linuxilla
 date: 2026-02-21
 categories:
-  - tech
-tags:
   - tutorial
+tags:
+  - tech
+  - linux
 translationKey: mount-smb-shares-on-linux
 ---
 

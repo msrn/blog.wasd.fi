@@ -3,7 +3,7 @@ title: The Bridge ja Gene Sprague
 draft: false
 date: 2025-02-15
 categories:
-  - random
+  - article
 tags:
   - media
 translationKey: the-bridge-and-gene-sprague
