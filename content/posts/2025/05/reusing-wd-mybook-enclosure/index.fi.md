@@ -1,5 +1,4 @@
 ---
-translationKey: reusing-wd-mybook-enclosure
 title: WD MyBook -kotelon uudelleenkäyttö (ASMedia-piirisarja)
 draft: false
 date: 2025-05-20
@@ -8,6 +7,7 @@ categories:
 tags:
   - tech
 slug: wd-mybook-kotelon-uudelleenkäyttö
+translationKey: reusing-wd-mybook-enclosure
 ---
 
 Törmäsin tähän mr[ Steven](https://www.youtube.com/watch?v=0qpdQQgWKvQ) YouTube-videoon, jossa esiteltiin, miten olemassa oleva WD MyBook -kotelo saadaan toimimaan minkä tahansa SATA-kiintolevyn kanssa. Minullahan sattui olemaan kolme sellaista.

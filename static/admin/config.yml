@@ -21,27 +21,46 @@ i18n:
   # The locale to be used for fields validation and as a baseline for the entry.
   default_locale: en
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'blog-en'
+    label: 'Blog EN'
     folder: 'content/posts'
-    path: '{{year}}/{{month}}/{{slug}}/index'
-    media_folder: /public/uploads/blog
-    public_folder: /uploads/blog
+    path: '{{year}}/{{month}}/{{slug}}/index.en'
+    media_folder: static/img/blog/{{year}}
+    public_folder: /img/blog/{{year}}
     create: true
-    slug: "{{slug}}"
-    i18n:
-      structure: multiple_files
-      locales: [en,fi]
+    slug: '{{langkey | localize}}'
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: true}
-      - { label: 'Slug', name: 'slug', widget: 'string' , i18n: true, required: false}
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , i18n: duplicate, required: false}
-      - { label: 'Category', name: 'categories', widget: 'list', i18n: duplicate}
-      - { label: 'Tags', name: 'tags', widget: 'list', i18n: duplicate}
-      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true}
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'en'}
+      - { label: 'Language key', name: 'langkey', widget: 'string', required: false}
+      - { label: 'Slug', name: 'slug', widget: 'string', required: false}   
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
+      - { label: 'Category', name: 'categories', widget: 'list'}
+      - { label: 'Tags', name: 'tags', widget: 'list'}
+      - { label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'blog-fi'
+    label: 'Blog FI'
+    folder: 'content/posts'
+    path: '{{year}}/{{month}}/{{slug}}/index.fi'
+    media_folder: static/img/blog/{{year}}
+    public_folder: /img/blog/{{year}}
+    create: true
+    slug: '{{langkey | localize}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Language', name: 'language', widget: 'select', options: ['en', 'fi'], default: 'fi'}
+      - { label: 'Language key', name: 'langkey', widget: 'string', required: true}
+      - { label: 'Slug', name: 'slug', widget: 'string'}      
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , required: true}
+      - { label: 'Category', name: 'categories', widget: 'list'}
+      - { label: 'Tags', name: 'tags', widget: 'list'}
+      - { label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'pages'
     label: 'Pages'
     i18n: true
@@ -52,6 +71,6 @@ collections:
         i18n: true
         fields:
           - { label: 'Title', name: 'title', widget: 'string' , i18n: true}
-          - { label: 'Draft', name: 'draft', widget: 'boolean', default: true}
+          - { label: 'Draft', name: 'draft', widget: 'boolean', default: true, i18n: duplicate}
           - { label: 'Publish Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', default: '' , i18n: duplicate}
           - { label: 'Body', name: 'body', widget: 'markdown', i18n: true}

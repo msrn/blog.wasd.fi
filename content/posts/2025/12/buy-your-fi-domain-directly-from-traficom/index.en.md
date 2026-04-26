@@ -7,6 +7,7 @@ categories:
   - article
 tags:
   - tech
+translationKey: buy-your-fi-domain-directly-from-traficom
 ---
 
 In recent months, Traficom caused a small "uproar" when the Ministry of Transport and Communications proposed that the price of fi domains would increase from €9 to €12, and that domain name registrars would be charged an annual fee of €400 [^1].

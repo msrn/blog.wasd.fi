@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - tech
+translationKey: creative-stage-v1-audio-lag-firmware-fix
 ---
 
 Olen pitkään luullut, että videon tai äänen toiston alussa ilmenevä viive johtui jotenkin käyttöjärjestelmästäni - Aurora Linuxista. Ongelma johtui kuitenkin Cretive Stage v1 -soundbaristani. Näin käy, kun ääntä ei ole toistettu vähään aikaan, etenkin jos kaiuttimesta ei kuulu hiljaista "sihinää".

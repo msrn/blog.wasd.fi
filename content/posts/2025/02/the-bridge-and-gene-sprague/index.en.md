@@ -3,9 +3,10 @@ title: The Bridge and Gene Sprague
 draft: false
 date: 2025-02-15
 categories:
-  - random
+  - article
 tags:
   - media
+translationKey: the-bridge-and-gene-sprague
 ---
 Recently watched the somewhat infamous Bridge documentary from 2006, which centers around the Golden Gate suicide jumpers.
 Critically the documentary was averagely rated, but personally it is one of those movies that will just get stuck inside your head for a while.

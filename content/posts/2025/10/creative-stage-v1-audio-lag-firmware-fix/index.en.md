@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - tech
+translationKey: creative-stage-v1-audio-lag-firmware-fix
 ---
 
 Edit: The firmware from Creative support page didnt actually fix the whole problem. See update below.

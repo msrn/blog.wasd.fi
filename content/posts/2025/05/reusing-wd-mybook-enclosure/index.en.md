@@ -1,5 +1,5 @@
 ---
-translationKey: reusing-wd-mybook-enclosure
+
 title: Reusing WD MyBook Enclosure (ASMedia chipset)
 draft: false
 date: 2025-05-20
@@ -7,6 +7,7 @@ categories:
   - tutorial
 tags:
   - tech
+translationKey: reusing-wd-mybook-enclosure
 ---
 
 I came across to this Youtube video by [Mr Steve](https://www.youtube.com/watch?v=0qpdQQgWKvQ).

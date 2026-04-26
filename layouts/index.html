@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <div class="homepage-content">
+    {{ .Content }}
+  </div>
+
+  <div class="articles h-feed">
+    {{- $allPages := slice }}
+
+    {{- range .Site.Sites }}
+      {{- $thisSite := . }}
+      {{- range where .RegularPages "Type" "posts" }}
+        {{- $skip := false }}
+        {{- if ne $thisSite.Language.Lang $.Site.Language.Lang }}
+          {{- if .Translations }}
+            {{- $skip = true }}
+          {{- end }}
+        {{- end }}
+        {{- if not $skip }}
+          {{- $allPages = $allPages | append . }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+
+    {{- $allPages = sort $allPages "Date" "desc" }}
+
+    {{ range (.Paginate $allPages).Pages }}
+      {{ partial "post-summary.html" . }}
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+{{ end }}
