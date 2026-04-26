@@ -7,13 +7,10 @@ slug: ''
 date: 2026-02-21
 categories:
   - tutorial
-<<<<<<< HEAD
 tags:
   - tech
   - linux
 translationKey: mount-smb-shares-on-linux
-=======
->>>>>>> 2eb5b96696f7ee8400b83b2b2404297a7d0b968d
 ---
 
 I have been using Linux distribution called Aurora Linux [^1] well over year as my main distro. I did pretty much cold turkey switch from Windows 10, as the Window s boot drive's bootloader just failed for some reason.
