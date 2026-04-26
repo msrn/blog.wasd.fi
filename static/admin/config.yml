@@ -3,7 +3,7 @@ display_url: https://blog.wasd.fi
 backend:
   name: github
   repo: msrn/blog.wasd.fi
-  branch: refactor
+  branch: master
   base_url: https://sveltia-cms-auth.nahkaz.workers.dev/
 media_folder: static/img
 public_folder: /img
