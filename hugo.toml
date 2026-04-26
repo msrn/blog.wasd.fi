@@ -5,6 +5,17 @@ theme = 'anubis2'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = 'content/posts'
+    target = 'content/en/posts'
+  [[module.mounts]]
+    source = 'content/posts'
+    target = 'content/fi/posts'
+
 [params.anubis2]
 
 [languages]
