@@ -63,8 +63,8 @@ RewriteRule ^(.*)$ http://webapp-trixie.n.kapsi.fi:<PORT>/$1 [P]
 - Create `.env` file to the root installation with this content
 
 ```plain
- UPTIME_KUMA_HOST= webapp-bullseye.n.kapsi.fi
-  UPTIME_KUMA_PORT=<PORT>"
+UPTIME_KUMA_HOST=0.0.0.0
+  UPTIME_KUMA_PORT=<PORT>
 ```
 
 - Do a test run with `node server/server.js`, and access your domain eg `domain.com`
@@ -79,7 +79,6 @@ RewriteRule ^(.*)$ http://webapp-trixie.n.kapsi.fi:<PORT>/$1 [P]
 - `crontab -e`
 - Add following `@reboot cd ~/sites/domain.com/www && pm2 start server/server.js --name uptime-kuma`
 
-
 ## v2 migration
 
 Easy to do, just follow the general steps from official instruction [here](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%86%99-How-to-Update#--non-docker). 
@@ -88,16 +87,22 @@ Then start up the service and check logs with `pm2 logs uptime-kuma` for migrati
 
 Also make a systemd user service instead of crontab
 
-```
+```plain
 ~/.config/systemd/user/uptimekumaservice
 
 [Unit]
-Description=Uptime Kuma startup
+Description=Uptime Kuma
+After=network-online.target
+Wants=network-online.target
 
 [Service]
-WorkingDirectory=~/sites/domain.com/www
-ExecStart=pm2 start server/server.js --name uptime-kuma
-Restart=always
+Type=forking
+WorkingDirectory=%h/sites/example.com/www
+Environment=PATH=/home/users/user/.nvm/versions/node/v24.18.0/bin:/usr/bin:/bin
+Environment=PM2_HOME=%h/.pm2
+PIDFile=%h/.pm2/pm2.pid
+ExecStart=/home/users/user/.nvm/versions/node/v24.18.0/bin/pm2 start server/server.js --name uptime-kuma
+ExecStop=/home/users/user/.nvm/versions/node/v24.18.0/bin/pm2 stop uptime-kuma
 
 [Install]
 WantedBy=default.target
