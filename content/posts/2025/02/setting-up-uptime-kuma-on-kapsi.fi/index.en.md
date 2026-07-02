@@ -1,16 +1,21 @@
 ---
+translationKey: setting-up-uptime-kuma-on-kapsi.fi
 title: Setting up Uptime Kuma on Kapsi.fi
 draft: false
+langkey: ''
+slug: ''
 date: 2025-02-18
-description: asd
 categories:
   - tutorial
 tags:
   - tech
   - selfhosting
-translationKey: setting-up-uptime-kuma-on-kapsi.fi
+description: asd
 ---
+
 Small tutorial on how to run [Uptime Kuma](https://github.com/louislam/uptime-kuma) on Kapsi.fi shared hosting environment without Docker.
+
+Update: 2026-07-02 - Migration to v2 Uptime Kuma and webapp-trixie on Kapsi
 
 ## Prerequisities:
 
@@ -22,7 +27,7 @@ Small tutorial on how to run [Uptime Kuma](https://github.com/louislam/uptime-ku
 
 ## Steps:
 
-1. Ssh to the webapp-bullseye server `ssh <account>@webapp-bullseye.kapsi.fi`
+1. Ssh to the webapp-trixie server `ssh <account>@webapp-trixie.kapsi.fi`
 2. Install `nvm` to install Nodejs. See the recent installation guide from [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).\
 I just used the wget snippet and then added below to `.bash_profile`
 
@@ -36,7 +41,6 @@ After this run `nvm install` which at the writing install NodeJS v23.
 You can also run `nvm install --lts` to install latest LTS version.
 
 3. Change directory to desired domain you want to install eg `cd /sites/domain.com/www/`
-   
 4. Create a `.htaccess` file with following content.\
  This redirects requests from `domain.com` to the underlying web server running in `webapp-bullseye.n.kapsi.fi:<PORT>`
 
@@ -49,8 +53,8 @@ RewriteRule (.*) https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 RewriteCond %{HTTP:Upgrade} websocket [NC]
 RewriteCond %{HTTP:Connection} upgrade [NC]
 RewriteCond %{REQUEST_URI} ^/(.*)$
-RewriteRule ^(.*) ws://webapp-bullseye.n.kapsi.fi:<PORT>/$1  [P]
-RewriteRule ^(.*)$ http://webapp-bullseye.n.kapsi.fi:<PORT>/$1 [P]
+RewriteRule ^(.*) ws://webapp-trixie.n.kapsi.fi:<PORT>/$1  [P]
+RewriteRule ^(.*)$ http://webapp-trixie.n.kapsi.fi:<PORT>/$1 [P]
 ```
 
 6. Follow the official instructions for non-Docker installation [here](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-non-docker).
@@ -59,7 +63,7 @@ RewriteRule ^(.*)$ http://webapp-bullseye.n.kapsi.fi:<PORT>/$1 [P]
 - Create `.env` file to the root installation with this content
 
 ```plain
-  UPTIME_KUMA_HOST= webapp-bullseye.n.kapsi.fi
+ UPTIME_KUMA_HOST= webapp-bullseye.n.kapsi.fi
   UPTIME_KUMA_PORT=<PORT>"
 ```
 
@@ -70,7 +74,31 @@ RewriteRule ^(.*)$ http://webapp-bullseye.n.kapsi.fi:<PORT>/$1 [P]
 - `npm install pm2 -g && pm2 install pm2-logrotate`
 - Start it `pm2 start server/server.js --name uptime-kuma`
 
-6. Create cronjob entry for starting the server on reboot
+6. Create cronjob entry for starting the server on reboot (Doesn't work for webapp-trixie, use systemd)
 
 - `crontab -e`
 - Add following `@reboot cd ~/sites/domain.com/www && pm2 start server/server.js --name uptime-kuma`
+
+
+## v2 migration
+
+Easy to do, just follow the general steps from official instruction [here](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%86%99-How-to-Update#--non-docker). 
+
+Then start up the service and check logs with `pm2 logs uptime-kuma` for migration process.
+
+Also make a systemd user service instead of crontab
+
+```
+~/.config/systemd/user/uptimekumaservice
+
+[Unit]
+Description=Uptime Kuma startup
+
+[Service]
+WorkingDirectory=~/sites/domain.com/www
+ExecStart=pm2 start server/server.js --name uptime-kuma
+Restart=always
+
+[Install]
+WantedBy=default.target
+```
