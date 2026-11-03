@@ -13,6 +13,8 @@ tags:
 ---
 
 Edit: The firmware from Creative support page didnt actually fix the whole problem. See update below.
+
+
 Edit #2 2026-11-02: Got an email from reader. See the reverse engineered firmware [section](#reverse-engineered-firmware).
 
 For a long time I have thought that the initial audio delay when playing video or audio had something do with my OS - Aurora Linux. Turns out it was problem with Cretive Stage v1 soundbar I have. This happens when there has been no audio playing for a while, notably when there is no silent "hiss" coming from the speaker.
